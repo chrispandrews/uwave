@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+DEFINE powerampdg powerampdg
+ASSIGN powerampdg writePath powerampdg
+ASSIGN powerampdg libMode shared

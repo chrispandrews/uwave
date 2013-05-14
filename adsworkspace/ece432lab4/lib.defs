@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE ece432lab4_lib ece432lab4_lib
+ASSIGN ece432lab4_lib libMode shared

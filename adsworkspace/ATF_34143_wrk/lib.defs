@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE ATF_34143_lib ATF_34143_lib
+ASSIGN ATF_34143_lib libMode shared

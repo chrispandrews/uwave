@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<AdsTranslatorSetupFile Version="1.0">
+    <Import>
+        <ZeroSuppression>Leading</ZeroSuppression>
+        <CoordMode>AbsoluteCMode</CoordMode>
+        <NumIntegerDigits>2</NumIntegerDigits>
+        <NumFractionalDigits>4</NumFractionalDigits>
+        <Unit>inch</Unit>
+        <Layers />
+    </Import>
+    <Export>
+        <FileFormat>RS274X</FileFormat>
+        <ZeroSuppression>Leading</ZeroSuppression>
+        <CoordMode>AbsoluteCMode</CoordMode>
+        <NumIntegerDigits>5</NumIntegerDigits>
+        <NumFractionalDigits>4</NumFractionalDigits>
+        <XOffset>0</XOffset>
+        <YOffset>0</YOffset>
+        <Scale>1</Scale>
+        <OpenLineWidth>0.025</OpenLineWidth>
+        <SingleFile>0</SingleFile>
+        <Unit>inch</Unit>
+        <Flatten>0</Flatten>
+        <PathsAsPolygons>0</PathsAsPolygons>
+        <HoleFormat>Holes As Cutlines</HoleFormat>
+        <Layers>
+            <Layer EecadLayer="bond" AdsLayer="bond" Transfer="1" />
+            <Layer EecadLayer="cond" AdsLayer="cond" Transfer="1" />
+            <Layer EecadLayer="cond2" AdsLayer="cond2" Transfer="1" />
+            <Layer EecadLayer="hole" AdsLayer="hole" Transfer="0" />
+            <Layer EecadLayer="packages" AdsLayer="packages" Transfer="0" />
+            <Layer AdsLayer="bond" Polarity="Positive" />
+            <Layer AdsLayer="cond" Polarity="Positive" />
+            <Layer AdsLayer="cond2" Polarity="Positive" />
+            <Layer AdsLayer="hole" Polarity="Positive" />
+            <Layer AdsLayer="packages" Polarity="Positive" />
+        </Layers>
+        <SingleFileFilename></SingleFileFilename>
+        <DrillLayers>
+            <Layer LayerName="cond" LayerNumber="1" DrillExport="0">
+                <DrillDiameterMap DrawDiameter="137796" ToolDiameter="137796" />
+            </Layer>
+            <Layer LayerName="cond2" LayerNumber="2" DrillExport="0">
+                <DrillDiameterMap DrawDiameter="137796" ToolDiameter="137796" />
+            </Layer>
+            <Layer LayerName="hole" LayerNumber="5" DrillExport="1">
+                <DrillDiameterMap DrawDiameter="137796" ToolDiameter="137796" />
+            </Layer>
+        </DrillLayers>
+        <AutoMerge>0</AutoMerge>
+        <VectorizeText>1</VectorizeText>
+        <LayerStackup>1</LayerStackup>
+        <Nets />
+        <Components />
+    </Export>
+</AdsTranslatorSetupFile>

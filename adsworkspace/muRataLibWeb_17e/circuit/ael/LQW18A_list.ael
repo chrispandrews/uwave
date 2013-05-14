@@ -1,0 +1,204 @@
+create_constant_form("LQW18AN2N2D00","0:LQW18AN2N2D00, High Frequency Winding Type, 2.2[nH], +/-0.5[nH], 700[mA], 10[MHz]-6[GHz]:0",68,"0","LQW18AN2N2D00");
+create_constant_form("LQW18AN3N6C00","1:LQW18AN3N6C00, High Frequency Winding Type, 3.6[nH], +/-0.2[nH], 850[mA], 10[MHz]-6[GHz]:1",68,"1","LQW18AN3N6C00");
+create_constant_form("LQW18AN3N9C00","2:LQW18AN3N9C00, High Frequency Winding Type, 3.9[nH], +/-0.2[nH], 850[mA], 10[MHz]-6[GHz]:2",68,"2","LQW18AN3N9C00");
+create_constant_form("LQW18AN4N3C00","3:LQW18AN4N3C00, High Frequency Winding Type, 4.3[nH], +/-0.2[nH], 850[mA], 10[MHz]-6[GHz]:3",68,"3","LQW18AN4N3C00");
+create_constant_form("LQW18AN4N7D00","4:LQW18AN4N7D00, High Frequency Winding Type, 4.7[nH], +/-0.5[nH], 850[mA], 10[MHz]-6[GHz]:4",68,"4","LQW18AN4N7D00");
+create_constant_form("LQW18AN5N6C00","5:LQW18AN5N6C00, High Frequency Winding Type, 5.6[nH], +/-0.2[nH], 750[mA], 10[MHz]-6[GHz]:5",68,"5","LQW18AN5N6C00");
+create_constant_form("LQW18AN6N2C00","6:LQW18AN6N2C00, High Frequency Winding Type, 6.2[nH], +/-0.2[nH], 750[mA], 10[MHz]-6[GHz]:6",68,"6","LQW18AN6N2C00");
+create_constant_form("LQW18AN6N8C00","7:LQW18AN6N8C00, High Frequency Winding Type, 6.8[nH], +/-0.2[nH], 750[mA], 10[MHz]-6[GHz]:7",68,"7","LQW18AN6N8C00");
+create_constant_form("LQW18AN7N5D00","8:LQW18AN7N5D00, High Frequency Winding Type, 7.5[nH], +/-0.5[nH], 750[mA], 10[MHz]-6[GHz]:8",68,"8","LQW18AN7N5D00");
+create_constant_form("LQW18AN8N2D00","9:LQW18AN8N2D00, High Frequency Winding Type, 8.2[nH], +/-0.5[nH], 650[mA], 10[MHz]-6[GHz]:9",68,"9","LQW18AN8N2D00");
+create_constant_form("LQW18AN8N7D00","10:LQW18AN8N7D00, High Frequency Winding Type, 8.7[nH], +/-0.5[nH], 650[mA], 10[MHz]-6[GHz]:10",68,"10","LQW18AN8N7D00");
+create_constant_form("LQW18AN9N1D00","11:LQW18AN9N1D00, High Frequency Winding Type, 9.1[nH], +/-0.5[nH], 650[mA], 10[MHz]-6[GHz]:11",68,"11","LQW18AN9N1D00");
+create_constant_form("LQW18AN9N5D00","12:LQW18AN9N5D00, High Frequency Winding Type, 9.5[nH], +/-0.5[nH], 650[mA], 10[MHz]-6[GHz]:12",68,"12","LQW18AN9N5D00");
+create_constant_form("LQW18AN10NG00","13:LQW18AN10NG00, High Frequency Winding Type, 10[nH], +/-2[%], 650[mA], 10[MHz]-6[GHz]:13",68,"13","LQW18AN10NG00");
+create_constant_form("LQW18AN11NG00","14:LQW18AN11NG00, High Frequency Winding Type, 11[nH], +/-2[%], 650[mA], 10[MHz]-6[GHz]:14",68,"14","LQW18AN11NG00");
+create_constant_form("LQW18AN12NG00","15:LQW18AN12NG00, High Frequency Winding Type, 12[nH], +/-2[%], 600[mA], 10[MHz]-6[GHz]:15",68,"15","LQW18AN12NG00");
+create_constant_form("LQW18AN13NG00","16:LQW18AN13NG00, High Frequency Winding Type, 13[nH], +/-2[%], 600[mA], 10[MHz]-6[GHz]:16",68,"16","LQW18AN13NG00");
+create_constant_form("LQW18AN15NG00","17:LQW18AN15NG00, High Frequency Winding Type, 15[nH], +/-2[%], 600[mA], 10[MHz]-6[GHz]:17",68,"17","LQW18AN15NG00");
+create_constant_form("LQW18AN16NG00","18:LQW18AN16NG00, High Frequency Winding Type, 16[nH], +/-2[%], 550[mA], 10[MHz]-6[GHz]:18",68,"18","LQW18AN16NG00");
+create_constant_form("LQW18AN18NG00","19:LQW18AN18NG00, High Frequency Winding Type, 18[nH], +/-2[%], 550[mA], 10[MHz]-6[GHz]:19",68,"19","LQW18AN18NG00");
+create_constant_form("LQW18AN20NG00","20:LQW18AN20NG00, High Frequency Winding Type, 20[nH], +/-2[%], 550[mA], 10[MHz]-6[GHz]:20",68,"20","LQW18AN20NG00");
+create_constant_form("LQW18AN22NG00","21:LQW18AN22NG00, High Frequency Winding Type, 22[nH], +/-2[%], 500[mA], 10[MHz]-6[GHz]:21",68,"21","LQW18AN22NG00");
+create_constant_form("LQW18AN24NG00","22:LQW18AN24NG00, High Frequency Winding Type, 24[nH], +/-2[%], 500[mA], 10[MHz]-6[GHz]:22",68,"22","LQW18AN24NG00");
+create_constant_form("LQW18AN27NG00","23:LQW18AN27NG00, High Frequency Winding Type, 27[nH], +/-2[%], 440[mA], 10[MHz]-5.6[GHz]:23",68,"23","LQW18AN27NG00");
+create_constant_form("LQW18AN30NG00","24:LQW18AN30NG00, High Frequency Winding Type, 30[nH], +/-2[%], 420[mA], 10[MHz]-5.2[GHz]:24",68,"24","LQW18AN30NG00");
+create_constant_form("LQW18AN33NG00","25:LQW18AN33NG00, High Frequency Winding Type, 33[nH], +/-2[%], 420[mA], 10[MHz]-5[GHz]:25",68,"25","LQW18AN33NG00");
+create_constant_form("LQW18AN36NG00","26:LQW18AN36NG00, High Frequency Winding Type, 36[nH], +/-2[%], 400[mA], 10[MHz]-4.9[GHz]:26",68,"26","LQW18AN36NG00");
+create_constant_form("LQW18AN39NG00","27:LQW18AN39NG00, High Frequency Winding Type, 39[nH], +/-2[%], 400[mA], 10[MHz]-4.9[GHz]:27",68,"27","LQW18AN39NG00");
+create_constant_form("LQW18AN43NG00","28:LQW18AN43NG00, High Frequency Winding Type, 43[nH], +/-2[%], 380[mA], 10[MHz]-4.7[GHz]:28",68,"28","LQW18AN43NG00");
+create_constant_form("LQW18AN47NG00","29:LQW18AN47NG00, High Frequency Winding Type, 47[nH], +/-2[%], 380[mA], 10[MHz]-4.5[GHz]:29",68,"29","LQW18AN47NG00");
+create_constant_form("LQW18AN51NG00","30:LQW18AN51NG00, High Frequency Winding Type, 51[nH], +/-2[%], 370[mA], 10[MHz]-4.4[GHz]:30",68,"30","LQW18AN51NG00");
+create_constant_form("LQW18AN56NG00","31:LQW18AN56NG00, High Frequency Winding Type, 56[nH], +/-2[%], 360[mA], 10[MHz]-4.2[GHz]:31",68,"31","LQW18AN56NG00");
+create_constant_form("LQW18AN62NG00","32:LQW18AN62NG00, High Frequency Winding Type, 62[nH], +/-2[%], 280[mA], 10[MHz]-4[GHz]:32",68,"32","LQW18AN62NG00");
+create_constant_form("LQW18AN68NG00","33:LQW18AN68NG00, High Frequency Winding Type, 68[nH], +/-2[%], 340[mA], 10[MHz]-3.8[GHz]:33",68,"33","LQW18AN68NG00");
+create_constant_form("LQW18AN72NG00","34:LQW18AN72NG00, High Frequency Winding Type, 72[nH], +/-2[%], 270[mA], 10[MHz]-3.7[GHz]:34",68,"34","LQW18AN72NG00");
+create_constant_form("LQW18AN75NG00","35:LQW18AN75NG00, High Frequency Winding Type, 75[nH], +/-2[%], 270[mA], 10[MHz]-3.7[GHz]:35",68,"35","LQW18AN75NG00");
+create_constant_form("LQW18AN82NG00","36:LQW18AN82NG00, High Frequency Winding Type, 82[nH], +/-2[%], 250[mA], 10[MHz]-3.4[GHz]:36",68,"36","LQW18AN82NG00");
+create_constant_form("LQW18AN91NG00","37:LQW18AN91NG00, High Frequency Winding Type, 91[nH], +/-2[%], 230[mA], 10[MHz]-3.3[GHz]:37",68,"37","LQW18AN91NG00");
+create_constant_form("LQW18ANR10G00","38:LQW18ANR10G00, High Frequency Winding Type, 100[nH], +/-2[%], 220[mA], 10[MHz]-3.3[GHz]:38",68,"38","LQW18ANR10G00");
+create_constant_form("LQW18ANR11G00","39:LQW18ANR11G00, High Frequency Winding Type, 110[nH], +/-2[%], 200[mA], 10[MHz]-3.2[GHz]:39",68,"39","LQW18ANR11G00");
+create_constant_form("LQW18ANR12G00","40:LQW18ANR12G00, High Frequency Winding Type, 120[nH], +/-2[%], 180[mA], 10[MHz]-3.1[GHz]:40",68,"40","LQW18ANR12G00");
+create_constant_form("LQW18ANR13G00","41:LQW18ANR13G00, High Frequency Winding Type, 130[nH], +/-2[%], 170[mA], 10[MHz]-2.8[GHz]:41",68,"41","LQW18ANR13G00");
+create_constant_form("LQW18ANR15G00","42:LQW18ANR15G00, High Frequency Winding Type, 150[nH], +/-2[%], 160[mA], 10[MHz]-2.6[GHz]:42",68,"42","LQW18ANR15G00");
+create_constant_form("LQW18ANR16G00","43:LQW18ANR16G00, High Frequency Winding Type, 160[nH], +/-2[%], 150[mA], 10[MHz]-2.5[GHz]:43",68,"43","LQW18ANR16G00");
+create_constant_form("LQW18ANR18G00","44:LQW18ANR18G00, High Frequency Winding Type, 180[nH], +/-2[%], 140[mA], 10[MHz]-2.4[GHz]:44",68,"44","LQW18ANR18G00");
+create_constant_form("LQW18ANR20G00","45:LQW18ANR20G00, High Frequency Winding Type, 200[nH], +/-2[%], 120[mA], 10[MHz]-2.3[GHz]:45",68,"45","LQW18ANR20G00");
+create_constant_form("LQW18ANR22G00","46:LQW18ANR22G00, High Frequency Winding Type, 220[nH], +/-2[%], 120[mA], 10[MHz]-2.2[GHz]:46",68,"46","LQW18ANR22G00");
+create_constant_form("LQW18ANR27G00","47:LQW18ANR27G00, High Frequency Winding Type, 270[nH], +/-2[%], 110[mA], 10[MHz]-1.7[GHz]:47",68,"47","LQW18ANR27G00");
+create_constant_form("LQW18ANR33G00","48:LQW18ANR33G00, High Frequency Winding Type, 330[nH], +/-2[%], 85[mA], 10[MHz]-1.5[GHz]:48",68,"48","LQW18ANR33G00");
+create_constant_form("LQW18ANR39G00","49:LQW18ANR39G00, High Frequency Winding Type, 390[nH], +/-2[%], 80[mA], 10[MHz]-1.4[GHz]:49",68,"49","LQW18ANR39G00");
+create_constant_form("LQW18ANR47G00","50:LQW18ANR47G00, High Frequency Winding Type, 470[nH], +/-2[%], 75[mA], 10[MHz]-1.3[GHz]:50",68,"50","LQW18ANR47G00");
+create_constant_form("LQW18AN2N2D10","51:LQW18AN2N2D10, High Frequency Winding Type, 2.2[nH], +/-0.5[nH], 1400[mA], 10[MHz]-6[GHz]:51",68,"51","LQW18AN2N2D10");
+create_constant_form("LQW18AN3N9C10","52:LQW18AN3N9C10, High Frequency Winding Type, 3.9[nH], +/-0.2[nH], 1000[mA], 10[MHz]-6[GHz]:52",68,"52","LQW18AN3N9C10");
+create_constant_form("LQW18AN5N6D10","53:LQW18AN5N6D10, High Frequency Winding Type, 5.6[nH], +/-0.5[nH], 900[mA], 10[MHz]-6[GHz]:53",68,"53","LQW18AN5N6D10");
+create_constant_form("LQW18AN6N8C10","54:LQW18AN6N8C10, High Frequency Winding Type, 6.8[nH], +/-0.2[nH], 900[mA], 10[MHz]-6[GHz]:54",68,"54","LQW18AN6N8C10");
+create_constant_form("LQW18AN8N2D10","55:LQW18AN8N2D10, High Frequency Winding Type, 8.2[nH], +/-0.5[nH], 800[mA], 10[MHz]-6[GHz]:55",68,"55","LQW18AN8N2D10");
+create_constant_form("LQW18AN10NG10","56:LQW18AN10NG10, High Frequency Winding Type, 10[nH], +/-2[%], 800[mA], 10[MHz]-6[GHz]:56",68,"56","LQW18AN10NG10");
+create_constant_form("LQW18AN12NG10","57:LQW18AN12NG10, High Frequency Winding Type, 12[nH], +/-2[%], 750[mA], 10[MHz]-6[GHz]:57",68,"57","LQW18AN12NG10");
+create_constant_form("LQW18AN15NJ10","58:LQW18AN15NJ10, High Frequency Winding Type, 15[nH], +/-5[%], 700[mA], 10[MHz]-6[GHz]:58",68,"58","LQW18AN15NJ10");
+create_constant_form("LQW18AN18NG10","59:LQW18AN18NG10, High Frequency Winding Type, 18[nH], +/-2[%], 700[mA], 10[MHz]-6[GHz]:59",68,"59","LQW18AN18NG10");
+create_constant_form("LQW18AN22NG10","60:LQW18AN22NG10, High Frequency Winding Type, 22[nH], +/-2[%], 640[mA], 10[MHz]-5.7[GHz]:60",68,"60","LQW18AN22NG10");
+create_constant_form("LQW18AN27NG10","61:LQW18AN27NG10, High Frequency Winding Type, 27[nH], +/-2[%], 590[mA], 10[MHz]-4.9[GHz]:61",68,"61","LQW18AN27NG10");
+create_constant_form("LQW18AN33NJ10","62:LQW18AN33NJ10, High Frequency Winding Type, 33[nH], +/-5[%], 550[mA], 10[MHz]-4.5[GHz]:62",68,"62","LQW18AN33NJ10");
+
+create_form_set("LQW18A_list" 
+,"LQW18AN2N2D00"
+,"LQW18AN3N6C00"
+,"LQW18AN3N9C00"
+,"LQW18AN4N3C00"
+,"LQW18AN4N7D00"
+,"LQW18AN5N6C00"
+,"LQW18AN6N2C00"
+,"LQW18AN6N8C00"
+,"LQW18AN7N5D00"
+,"LQW18AN8N2D00"
+,"LQW18AN8N7D00"
+,"LQW18AN9N1D00"
+,"LQW18AN9N5D00"
+,"LQW18AN10NG00"
+,"LQW18AN11NG00"
+,"LQW18AN12NG00"
+,"LQW18AN13NG00"
+,"LQW18AN15NG00"
+,"LQW18AN16NG00"
+,"LQW18AN18NG00"
+,"LQW18AN20NG00"
+,"LQW18AN22NG00"
+,"LQW18AN24NG00"
+,"LQW18AN27NG00"
+,"LQW18AN30NG00"
+,"LQW18AN33NG00"
+,"LQW18AN36NG00"
+,"LQW18AN39NG00"
+,"LQW18AN43NG00"
+,"LQW18AN47NG00"
+,"LQW18AN51NG00"
+,"LQW18AN56NG00"
+,"LQW18AN62NG00"
+,"LQW18AN68NG00"
+,"LQW18AN72NG00"
+,"LQW18AN75NG00"
+,"LQW18AN82NG00"
+,"LQW18AN91NG00"
+,"LQW18ANR10G00"
+,"LQW18ANR11G00"
+,"LQW18ANR12G00"
+,"LQW18ANR13G00"
+,"LQW18ANR15G00"
+,"LQW18ANR16G00"
+,"LQW18ANR18G00"
+,"LQW18ANR20G00"
+,"LQW18ANR22G00"
+,"LQW18ANR27G00"
+,"LQW18ANR33G00"
+,"LQW18ANR39G00"
+,"LQW18ANR47G00"
+,"LQW18AN2N2D10"
+,"LQW18AN3N9C10"
+,"LQW18AN5N6D10"
+,"LQW18AN6N8C10"
+,"LQW18AN8N2D10"
+,"LQW18AN10NG10"
+,"LQW18AN12NG10"
+,"LQW18AN15NJ10"
+,"LQW18AN18NG10"
+,"LQW18AN22NG10"
+,"LQW18AN27NG10"
+,"LQW18AN33NJ10"
+);
+
+create_compound_form("LQW18A_compound","Discrete Optimize setting","DistLibForm",68,"%p opt{ discrete %1p to %2p by 1 }","%s, %1s to %2s",
+create_parm("NOM","Nominal",32,"LQW18A_list",-1,prm("LQW18AN2N2D00")),
+create_parm("MIN","Minimum",32,"LQW18A_list",-1,prm("LQW18AN2N2D00")),
+create_parm("MAX","Maximum",32,"LQW18A_list",-1,prm("LQW18AN33NJ10")));
+
+create_form_set("LQW18A_list_opt","NULL" 
+,"LQW18AN2N2D00"
+,"LQW18AN3N6C00"
+,"LQW18AN3N9C00"
+,"LQW18AN4N3C00"
+,"LQW18AN4N7D00"
+,"LQW18AN5N6C00"
+,"LQW18AN6N2C00"
+,"LQW18AN6N8C00"
+,"LQW18AN7N5D00"
+,"LQW18AN8N2D00"
+,"LQW18AN8N7D00"
+,"LQW18AN9N1D00"
+,"LQW18AN9N5D00"
+,"LQW18AN10NG00"
+,"LQW18AN11NG00"
+,"LQW18AN12NG00"
+,"LQW18AN13NG00"
+,"LQW18AN15NG00"
+,"LQW18AN16NG00"
+,"LQW18AN18NG00"
+,"LQW18AN20NG00"
+,"LQW18AN22NG00"
+,"LQW18AN24NG00"
+,"LQW18AN27NG00"
+,"LQW18AN30NG00"
+,"LQW18AN33NG00"
+,"LQW18AN36NG00"
+,"LQW18AN39NG00"
+,"LQW18AN43NG00"
+,"LQW18AN47NG00"
+,"LQW18AN51NG00"
+,"LQW18AN56NG00"
+,"LQW18AN62NG00"
+,"LQW18AN68NG00"
+,"LQW18AN72NG00"
+,"LQW18AN75NG00"
+,"LQW18AN82NG00"
+,"LQW18AN91NG00"
+,"LQW18ANR10G00"
+,"LQW18ANR11G00"
+,"LQW18ANR12G00"
+,"LQW18ANR13G00"
+,"LQW18ANR15G00"
+,"LQW18ANR16G00"
+,"LQW18ANR18G00"
+,"LQW18ANR20G00"
+,"LQW18ANR22G00"
+,"LQW18ANR27G00"
+,"LQW18ANR33G00"
+,"LQW18ANR39G00"
+,"LQW18ANR47G00"
+,"LQW18AN2N2D10"
+,"LQW18AN3N9C10"
+,"LQW18AN5N6D10"
+,"LQW18AN6N8C10"
+,"LQW18AN8N2D10"
+,"LQW18AN10NG10"
+,"LQW18AN12NG10"
+,"LQW18AN15NJ10"
+,"LQW18AN18NG10"
+,"LQW18AN22NG10"
+,"LQW18AN27NG10"
+,"LQW18AN33NJ10"
+,"LQW18A_compound"
+);
+
+
+

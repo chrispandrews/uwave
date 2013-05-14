@@ -1,0 +1,840 @@
+create_constant_form("GRM31A5C2J100JW01","0:GRM31A5C2J100JW01, for General Use, C0G(-55to125[deg]), 630[V], 10[pF], +/-5[%], 100[MHz]-3[GHz]:0",68,"0","GRM31A5C2J100JW01");
+create_constant_form("GRM31A5C3A100JW01","1:GRM31A5C3A100JW01, for General Use, C0G(-55to125[deg]), 1000[V], 10[pF], +/-5[%], 100[MHz]-3[GHz]:1",68,"1","GRM31A5C3A100JW01");
+create_constant_form("GRM31A7U2J100JW31","2:GRM31A7U2J100JW31, for General Use, U2J(-55to125[deg]), 630[V], 10[pF], +/-5[%], 100[MHz]-3[GHz]:2",68,"2","GRM31A7U2J100JW31");
+create_constant_form("GRM31A7U3A100JW31","3:GRM31A7U3A100JW31, for General Use, U2J(-55to125[deg]), 1000[V], 10[pF], +/-5[%], 100[MHz]-3[GHz]:3",68,"3","GRM31A7U3A100JW31");
+create_constant_form("GRM31A7U3D100JW31","4:GRM31A7U3D100JW31, for General Use, U2J(-55to125[deg]), 2000[V], 10[pF], +/-5[%], 100[MHz]-3[GHz]:4",68,"4","GRM31A7U3D100JW31");
+create_constant_form("GRM31A5C2J120JW01","5:GRM31A5C2J120JW01, for General Use, C0G(-55to125[deg]), 630[V], 12[pF], +/-5[%], 100[MHz]-3[GHz]:5",68,"5","GRM31A5C2J120JW01");
+create_constant_form("GRM31A5C3A120JW01","6:GRM31A5C3A120JW01, for General Use, C0G(-55to125[deg]), 1000[V], 12[pF], +/-5[%], 100[MHz]-3[GHz]:6",68,"6","GRM31A5C3A120JW01");
+create_constant_form("GRM31A7U2J120JW31","7:GRM31A7U2J120JW31, for General Use, U2J(-55to125[deg]), 630[V], 12[pF], +/-5[%], 100[MHz]-3[GHz]:7",68,"7","GRM31A7U2J120JW31");
+create_constant_form("GRM31A7U3A120JW31","8:GRM31A7U3A120JW31, for General Use, U2J(-55to125[deg]), 1000[V], 12[pF], +/-5[%], 100[MHz]-3[GHz]:8",68,"8","GRM31A7U3A120JW31");
+create_constant_form("GRM31A7U3D120JW31","9:GRM31A7U3D120JW31, for General Use, U2J(-55to125[deg]), 2000[V], 12[pF], +/-5[%], 100[MHz]-3[GHz]:9",68,"9","GRM31A7U3D120JW31");
+create_constant_form("GRM31A5C2J150JW01","10:GRM31A5C2J150JW01, for General Use, C0G(-55to125[deg]), 630[V], 15[pF], +/-5[%], 100[MHz]-3[GHz]:10",68,"10","GRM31A5C2J150JW01");
+create_constant_form("GRM31A5C3A150JW01","11:GRM31A5C3A150JW01, for General Use, C0G(-55to125[deg]), 1000[V], 15[pF], +/-5[%], 100[MHz]-3[GHz]:11",68,"11","GRM31A5C3A150JW01");
+create_constant_form("GRM31A7U2J150JW31","12:GRM31A7U2J150JW31, for General Use, U2J(-55to125[deg]), 630[V], 15[pF], +/-5[%], 100[MHz]-3[GHz]:12",68,"12","GRM31A7U2J150JW31");
+create_constant_form("GRM31A7U3A150JW31","13:GRM31A7U3A150JW31, for General Use, U2J(-55to125[deg]), 1000[V], 15[pF], +/-5[%], 100[MHz]-3[GHz]:13",68,"13","GRM31A7U3A150JW31");
+create_constant_form("GRM31A7U3D150JW31","14:GRM31A7U3D150JW31, for General Use, U2J(-55to125[deg]), 2000[V], 15[pF], +/-5[%], 100[MHz]-3[GHz]:14",68,"14","GRM31A7U3D150JW31");
+create_constant_form("GRM31A5C2J180JW01","15:GRM31A5C2J180JW01, for General Use, C0G(-55to125[deg]), 630[V], 18[pF], +/-5[%], 100[MHz]-3[GHz]:15",68,"15","GRM31A5C2J180JW01");
+create_constant_form("GRM31A5C3A180JW01","16:GRM31A5C3A180JW01, for General Use, C0G(-55to125[deg]), 1000[V], 18[pF], +/-5[%], 100[MHz]-3[GHz]:16",68,"16","GRM31A5C3A180JW01");
+create_constant_form("GRM31A7U2J180JW31","17:GRM31A7U2J180JW31, for General Use, U2J(-55to125[deg]), 630[V], 18[pF], +/-5[%], 100[MHz]-3[GHz]:17",68,"17","GRM31A7U2J180JW31");
+create_constant_form("GRM31A7U3A180JW31","18:GRM31A7U3A180JW31, for General Use, U2J(-55to125[deg]), 1000[V], 18[pF], +/-5[%], 100[MHz]-3[GHz]:18",68,"18","GRM31A7U3A180JW31");
+create_constant_form("GRM31A7U3D180JW31","19:GRM31A7U3D180JW31, for General Use, U2J(-55to125[deg]), 2000[V], 18[pF], +/-5[%], 100[MHz]-3[GHz]:19",68,"19","GRM31A7U3D180JW31");
+create_constant_form("GRM31A5C2J220JW01","20:GRM31A5C2J220JW01, for General Use, C0G(-55to125[deg]), 630[V], 22[pF], +/-5[%], 100[MHz]-3[GHz]:20",68,"20","GRM31A5C2J220JW01");
+create_constant_form("GRM31A5C3A220JW01","21:GRM31A5C3A220JW01, for General Use, C0G(-55to125[deg]), 1000[V], 22[pF], +/-5[%], 100[MHz]-3[GHz]:21",68,"21","GRM31A5C3A220JW01");
+create_constant_form("GRM31A7U2J220JW31","22:GRM31A7U2J220JW31, for General Use, U2J(-55to125[deg]), 630[V], 22[pF], +/-5[%], 100[MHz]-3[GHz]:22",68,"22","GRM31A7U2J220JW31");
+create_constant_form("GRM31A7U3A220JW31","23:GRM31A7U3A220JW31, for General Use, U2J(-55to125[deg]), 1000[V], 22[pF], +/-5[%], 100[MHz]-3[GHz]:23",68,"23","GRM31A7U3A220JW31");
+create_constant_form("GRM31A7U3D220JW31","24:GRM31A7U3D220JW31, for General Use, U2J(-55to125[deg]), 2000[V], 22[pF], +/-5[%], 100[MHz]-3[GHz]:24",68,"24","GRM31A7U3D220JW31");
+create_constant_form("GRM31A5C2J270JW01","25:GRM31A5C2J270JW01, for General Use, C0G(-55to125[deg]), 630[V], 27[pF], +/-5[%], 100[MHz]-3[GHz]:25",68,"25","GRM31A5C2J270JW01");
+create_constant_form("GRM31A5C3A270JW01","26:GRM31A5C3A270JW01, for General Use, C0G(-55to125[deg]), 1000[V], 27[pF], +/-5[%], 100[MHz]-3[GHz]:26",68,"26","GRM31A5C3A270JW01");
+create_constant_form("GRM31A7U2J270JW31","27:GRM31A7U2J270JW31, for General Use, U2J(-55to125[deg]), 630[V], 27[pF], +/-5[%], 100[MHz]-3[GHz]:27",68,"27","GRM31A7U2J270JW31");
+create_constant_form("GRM31A7U3A270JW31","28:GRM31A7U3A270JW31, for General Use, U2J(-55to125[deg]), 1000[V], 27[pF], +/-5[%], 100[MHz]-3[GHz]:28",68,"28","GRM31A7U3A270JW31");
+create_constant_form("GRM31A7U3D270JW31","29:GRM31A7U3D270JW31, for General Use, U2J(-55to125[deg]), 2000[V], 27[pF], +/-5[%], 100[MHz]-3[GHz]:29",68,"29","GRM31A7U3D270JW31");
+create_constant_form("GRM31A5C2J330JW01","30:GRM31A5C2J330JW01, for General Use, C0G(-55to125[deg]), 630[V], 33[pF], +/-5[%], 100[MHz]-3[GHz]:30",68,"30","GRM31A5C2J330JW01");
+create_constant_form("GRM31A5C3A330JW01","31:GRM31A5C3A330JW01, for General Use, C0G(-55to125[deg]), 1000[V], 33[pF], +/-5[%], 100[MHz]-3[GHz]:31",68,"31","GRM31A5C3A330JW01");
+create_constant_form("GRM31A7U2J330JW31","32:GRM31A7U2J330JW31, for General Use, U2J(-55to125[deg]), 630[V], 33[pF], +/-5[%], 100[MHz]-3[GHz]:32",68,"32","GRM31A7U2J330JW31");
+create_constant_form("GRM31A7U3A330JW31","33:GRM31A7U3A330JW31, for General Use, U2J(-55to125[deg]), 1000[V], 33[pF], +/-5[%], 100[MHz]-3[GHz]:33",68,"33","GRM31A7U3A330JW31");
+create_constant_form("GRM31A7U3D330JW31","34:GRM31A7U3D330JW31, for General Use, U2J(-55to125[deg]), 2000[V], 33[pF], +/-5[%], 100[MHz]-3[GHz]:34",68,"34","GRM31A7U3D330JW31");
+create_constant_form("GRM31A5C2J390JW01","35:GRM31A5C2J390JW01, for General Use, C0G(-55to125[deg]), 630[V], 39[pF], +/-5[%], 100[MHz]-3[GHz]:35",68,"35","GRM31A5C2J390JW01");
+create_constant_form("GRM31A5C3A390JW01","36:GRM31A5C3A390JW01, for General Use, C0G(-55to125[deg]), 1000[V], 39[pF], +/-5[%], 100[MHz]-3[GHz]:36",68,"36","GRM31A5C3A390JW01");
+create_constant_form("GRM31A7U2J390JW31","37:GRM31A7U2J390JW31, for General Use, U2J(-55to125[deg]), 630[V], 39[pF], +/-5[%], 100[MHz]-3[GHz]:37",68,"37","GRM31A7U2J390JW31");
+create_constant_form("GRM31A7U3A390JW31","38:GRM31A7U3A390JW31, for General Use, U2J(-55to125[deg]), 1000[V], 39[pF], +/-5[%], 100[MHz]-3[GHz]:38",68,"38","GRM31A7U3A390JW31");
+create_constant_form("GRM31A7U3D390JW31","39:GRM31A7U3D390JW31, for General Use, U2J(-55to125[deg]), 2000[V], 39[pF], +/-5[%], 100[MHz]-3[GHz]:39",68,"39","GRM31A7U3D390JW31");
+create_constant_form("GRM31A5C2J470JW01","40:GRM31A5C2J470JW01, for General Use, C0G(-55to125[deg]), 630[V], 47[pF], +/-5[%], 100[MHz]-3[GHz]:40",68,"40","GRM31A5C2J470JW01");
+create_constant_form("GRM31A5C3A470JW01","41:GRM31A5C3A470JW01, for General Use, C0G(-55to125[deg]), 1000[V], 47[pF], +/-5[%], 100[MHz]-3[GHz]:41",68,"41","GRM31A5C3A470JW01");
+create_constant_form("GRM31A7U2J470JW31","42:GRM31A7U2J470JW31, for General Use, U2J(-55to125[deg]), 630[V], 47[pF], +/-5[%], 100[MHz]-3[GHz]:42",68,"42","GRM31A7U2J470JW31");
+create_constant_form("GRM31A7U3A470JW31","43:GRM31A7U3A470JW31, for General Use, U2J(-55to125[deg]), 1000[V], 47[pF], +/-5[%], 100[MHz]-3[GHz]:43",68,"43","GRM31A7U3A470JW31");
+create_constant_form("GRM31A7U3D470JW31","44:GRM31A7U3D470JW31, for General Use, U2J(-55to125[deg]), 2000[V], 47[pF], +/-5[%], 100[MHz]-3[GHz]:44",68,"44","GRM31A7U3D470JW31");
+create_constant_form("GRM31A5C2J560JW01","45:GRM31A5C2J560JW01, for General Use, C0G(-55to125[deg]), 630[V], 56[pF], +/-5[%], 100[MHz]-3[GHz]:45",68,"45","GRM31A5C2J560JW01");
+create_constant_form("GRM31A5C3A560JW01","46:GRM31A5C3A560JW01, for General Use, C0G(-55to125[deg]), 1000[V], 56[pF], +/-5[%], 100[MHz]-3[GHz]:46",68,"46","GRM31A5C3A560JW01");
+create_constant_form("GRM31A7U2J560JW31","47:GRM31A7U2J560JW31, for General Use, U2J(-55to125[deg]), 630[V], 56[pF], +/-5[%], 100[MHz]-3[GHz]:47",68,"47","GRM31A7U2J560JW31");
+create_constant_form("GRM31A7U3A560JW31","48:GRM31A7U3A560JW31, for General Use, U2J(-55to125[deg]), 1000[V], 56[pF], +/-5[%], 100[MHz]-3[GHz]:48",68,"48","GRM31A7U3A560JW31");
+create_constant_form("GRM31A7U3D560JW31","49:GRM31A7U3D560JW31, for General Use, U2J(-55to125[deg]), 2000[V], 56[pF], +/-5[%], 100[MHz]-3[GHz]:49",68,"49","GRM31A7U3D560JW31");
+create_constant_form("GRM31A5C2J680JW01","50:GRM31A5C2J680JW01, for General Use, C0G(-55to125[deg]), 630[V], 68[pF], +/-5[%], 100[MHz]-3[GHz]:50",68,"50","GRM31A5C2J680JW01");
+create_constant_form("GRM31A5C3A680JW01","51:GRM31A5C3A680JW01, for General Use, C0G(-55to125[deg]), 1000[V], 68[pF], +/-5[%], 100[MHz]-3[GHz]:51",68,"51","GRM31A5C3A680JW01");
+create_constant_form("GRM31A7U2J680JW31","52:GRM31A7U2J680JW31, for General Use, U2J(-55to125[deg]), 630[V], 68[pF], +/-5[%], 100[MHz]-3[GHz]:52",68,"52","GRM31A7U2J680JW31");
+create_constant_form("GRM31A7U3A680JW31","53:GRM31A7U3A680JW31, for General Use, U2J(-55to125[deg]), 1000[V], 68[pF], +/-5[%], 100[MHz]-3[GHz]:53",68,"53","GRM31A7U3A680JW31");
+create_constant_form("GRM31A7U3D680JW31","54:GRM31A7U3D680JW31, for General Use, U2J(-55to125[deg]), 2000[V], 68[pF], +/-5[%], 100[MHz]-3[GHz]:54",68,"54","GRM31A7U3D680JW31");
+create_constant_form("GRM31A5C2J820JW01","55:GRM31A5C2J820JW01, for General Use, C0G(-55to125[deg]), 630[V], 82[pF], +/-5[%], 100[MHz]-3[GHz]:55",68,"55","GRM31A5C2J820JW01");
+create_constant_form("GRM31A5C3A820JW01","56:GRM31A5C3A820JW01, for General Use, C0G(-55to125[deg]), 1000[V], 82[pF], +/-5[%], 100[MHz]-3[GHz]:56",68,"56","GRM31A5C3A820JW01");
+create_constant_form("GRM31A7U2J820JW31","57:GRM31A7U2J820JW31, for General Use, U2J(-55to125[deg]), 630[V], 82[pF], +/-5[%], 100[MHz]-3[GHz]:57",68,"57","GRM31A7U2J820JW31");
+create_constant_form("GRM31A7U3A820JW31","58:GRM31A7U3A820JW31, for General Use, U2J(-55to125[deg]), 1000[V], 82[pF], +/-5[%], 100[MHz]-3[GHz]:58",68,"58","GRM31A7U3A820JW31");
+create_constant_form("GRM31A5C2J101JW01","59:GRM31A5C2J101JW01, for General Use, C0G(-55to125[deg]), 630[V], 100[pF], +/-5[%], 100[MHz]-3[GHz]:59",68,"59","GRM31A5C2J101JW01");
+create_constant_form("GRM31A5C3A101JW01","60:GRM31A5C3A101JW01, for General Use, C0G(-55to125[deg]), 1000[V], 100[pF], +/-5[%], 100[MHz]-3[GHz]:60",68,"60","GRM31A5C3A101JW01");
+create_constant_form("GRM31A7U2J101JW31","61:GRM31A7U2J101JW31, for General Use, U2J(-55to125[deg]), 630[V], 100[pF], +/-5[%], 100[MHz]-3[GHz]:61",68,"61","GRM31A7U2J101JW31");
+create_constant_form("GRM31A7U3A101JW31","62:GRM31A7U3A101JW31, for General Use, U2J(-55to125[deg]), 1000[V], 100[pF], +/-5[%], 100[MHz]-3[GHz]:62",68,"62","GRM31A7U3A101JW31");
+create_constant_form("GRM31A5C2J121JW01","63:GRM31A5C2J121JW01, for General Use, C0G(-55to125[deg]), 630[V], 120[pF], +/-5[%], 100[MHz]-3[GHz]:63",68,"63","GRM31A5C2J121JW01");
+create_constant_form("GRM31A5C3A121JW01","64:GRM31A5C3A121JW01, for General Use, C0G(-55to125[deg]), 1000[V], 120[pF], +/-5[%], 100[MHz]-3[GHz]:64",68,"64","GRM31A5C3A121JW01");
+create_constant_form("GRM31A7U2J121JW31","65:GRM31A7U2J121JW31, for General Use, U2J(-55to125[deg]), 630[V], 120[pF], +/-5[%], 100[MHz]-3[GHz]:65",68,"65","GRM31A7U2J121JW31");
+create_constant_form("GRM31A7U3A121JW31","66:GRM31A7U3A121JW31, for General Use, U2J(-55to125[deg]), 1000[V], 120[pF], +/-5[%], 100[MHz]-3[GHz]:66",68,"66","GRM31A7U3A121JW31");
+create_constant_form("GRM31A5C2J151JW01","67:GRM31A5C2J151JW01, for General Use, C0G(-55to125[deg]), 630[V], 150[pF], +/-5[%], 100[MHz]-3[GHz]:67",68,"67","GRM31A5C2J151JW01");
+create_constant_form("GRM31A5C3A151JW01","68:GRM31A5C3A151JW01, for General Use, C0G(-55to125[deg]), 1000[V], 150[pF], +/-5[%], 100[MHz]-3[GHz]:68",68,"68","GRM31A5C3A151JW01");
+create_constant_form("GRM31A7U2J151JW31","69:GRM31A7U2J151JW31, for General Use, U2J(-55to125[deg]), 630[V], 150[pF], +/-5[%], 100[MHz]-3[GHz]:69",68,"69","GRM31A7U2J151JW31");
+create_constant_form("GRM31A7U3A151JW31","70:GRM31A7U3A151JW31, for General Use, U2J(-55to125[deg]), 1000[V], 150[pF], +/-5[%], 100[MHz]-3[GHz]:70",68,"70","GRM31A7U3A151JW31");
+create_constant_form("GRM31A5C2J181JW01","71:GRM31A5C2J181JW01, for General Use, C0G(-55to125[deg]), 630[V], 180[pF], +/-5[%], 100[MHz]-3[GHz]:71",68,"71","GRM31A5C2J181JW01");
+create_constant_form("GRM31A5C3A181JW01","72:GRM31A5C3A181JW01, for General Use, C0G(-55to125[deg]), 1000[V], 180[pF], +/-5[%], 100[MHz]-3[GHz]:72",68,"72","GRM31A5C3A181JW01");
+create_constant_form("GRM31A7U2J181JW31","73:GRM31A7U2J181JW31, for General Use, U2J(-55to125[deg]), 630[V], 180[pF], +/-5[%], 100[MHz]-3[GHz]:73",68,"73","GRM31A7U2J181JW31");
+create_constant_form("GRM31A7U3A181JW31","74:GRM31A7U3A181JW31, for General Use, U2J(-55to125[deg]), 1000[V], 180[pF], +/-5[%], 100[MHz]-3[GHz]:74",68,"74","GRM31A7U3A181JW31");
+create_constant_form("GRM3195C2A201JZ01","75:GRM3195C2A201JZ01, for General Use, C0G(-55to125[deg]), 100[V], 200[pF], +/-5[%], 100[MHz]-8.5[GHz]:75",68,"75","GRM3195C2A201JZ01");
+create_constant_form("GRM31A5C2J221JW01","76:GRM31A5C2J221JW01, for General Use, C0G(-55to125[deg]), 630[V], 220[pF], +/-5[%], 100[MHz]-3[GHz]:76",68,"76","GRM31A5C2J221JW01");
+create_constant_form("GRM31A5C3A221JW01","77:GRM31A5C3A221JW01, for General Use, C0G(-55to125[deg]), 1000[V], 220[pF], +/-5[%], 100[MHz]-3[GHz]:77",68,"77","GRM31A5C3A221JW01");
+create_constant_form("GRM31A7U2J221JW31","78:GRM31A7U2J221JW31, for General Use, U2J(-55to125[deg]), 630[V], 220[pF], +/-5[%], 100[MHz]-3[GHz]:78",68,"78","GRM31A7U2J221JW31");
+create_constant_form("GRM31A7U3A221JW31","79:GRM31A7U3A221JW31, for General Use, U2J(-55to125[deg]), 1000[V], 220[pF], +/-5[%], 100[MHz]-3[GHz]:79",68,"79","GRM31A7U3A221JW31");
+create_constant_form("GRM31A5C2J271JW01","80:GRM31A5C2J271JW01, for General Use, C0G(-55to125[deg]), 630[V], 270[pF], +/-5[%], 100[MHz]-3[GHz]:80",68,"80","GRM31A5C2J271JW01");
+create_constant_form("GRM31A7U2J271JW31","81:GRM31A7U2J271JW31, for General Use, U2J(-55to125[deg]), 630[V], 270[pF], +/-5[%], 100[MHz]-3[GHz]:81",68,"81","GRM31A7U2J271JW31");
+create_constant_form("GRM31A7U3A271JW31","82:GRM31A7U3A271JW31, for General Use, U2J(-55to125[deg]), 1000[V], 270[pF], +/-5[%], 100[MHz]-3[GHz]:82",68,"82","GRM31A7U3A271JW31");
+create_constant_form("GRM31A5C2J331JW01","83:GRM31A5C2J331JW01, for General Use, C0G(-55to125[deg]), 630[V], 330[pF], +/-5[%], 100[MHz]-3[GHz]:83",68,"83","GRM31A5C2J331JW01");
+create_constant_form("GRM31A7U2J331JW31","84:GRM31A7U2J331JW31, for General Use, U2J(-55to125[deg]), 630[V], 330[pF], +/-5[%], 100[MHz]-3[GHz]:84",68,"84","GRM31A7U2J331JW31");
+create_constant_form("GRM31A7U3A331JW31","85:GRM31A7U3A331JW31, for General Use, U2J(-55to125[deg]), 1000[V], 330[pF], +/-5[%], 100[MHz]-3[GHz]:85",68,"85","GRM31A7U3A331JW31");
+create_constant_form("GRM31A5C2J391JW01","86:GRM31A5C2J391JW01, for General Use, C0G(-55to125[deg]), 630[V], 390[pF], +/-5[%], 100[MHz]-3[GHz]:86",68,"86","GRM31A5C2J391JW01");
+create_constant_form("GRM31A7U2J391JW31","87:GRM31A7U2J391JW31, for General Use, U2J(-55to125[deg]), 630[V], 390[pF], +/-5[%], 100[MHz]-3[GHz]:87",68,"87","GRM31A7U2J391JW31");
+create_constant_form("GRM31B7U3A391JW31","88:GRM31B7U3A391JW31, for General Use, U2J(-55to125[deg]), 1000[V], 390[pF], +/-5[%], 100[MHz]-3[GHz]:88",68,"88","GRM31B7U3A391JW31");
+create_constant_form("GRM31A5C2J471JW01","89:GRM31A5C2J471JW01, for General Use, C0G(-55to125[deg]), 630[V], 470[pF], +/-5[%], 100[MHz]-3[GHz]:89",68,"89","GRM31A5C2J471JW01");
+create_constant_form("GRM31A7U2J471JW31","90:GRM31A7U2J471JW31, for General Use, U2J(-55to125[deg]), 630[V], 470[pF], +/-5[%], 100[MHz]-3[GHz]:90",68,"90","GRM31A7U2J471JW31");
+create_constant_form("GRM31B7U3A471JW31","91:GRM31B7U3A471JW31, for General Use, U2J(-55to125[deg]), 1000[V], 470[pF], +/-5[%], 100[MHz]-3[GHz]:91",68,"91","GRM31B7U3A471JW31");
+create_constant_form("GRM31BR73A471KW01","92:GRM31BR73A471KW01, for General Use, X7R(-55to125[deg]), 1000[V], 470[pF], +/-10[%], 100[kHz]-6[GHz]:92",68,"92","GRM31BR73A471KW01");
+create_constant_form("GRM31A5C2J561JW01","93:GRM31A5C2J561JW01, for General Use, C0G(-55to125[deg]), 630[V], 560[pF], +/-5[%], 100[MHz]-3[GHz]:93",68,"93","GRM31A5C2J561JW01");
+create_constant_form("GRM31A7U2J561JW31","94:GRM31A7U2J561JW31, for General Use, U2J(-55to125[deg]), 630[V], 560[pF], +/-5[%], 100[MHz]-3[GHz]:94",68,"94","GRM31A7U2J561JW31");
+create_constant_form("GRM31B7U3A561JW31","95:GRM31B7U3A561JW31, for General Use, U2J(-55to125[deg]), 1000[V], 560[pF], +/-5[%], 100[MHz]-3[GHz]:95",68,"95","GRM31B7U3A561JW31");
+create_constant_form("GRM31A7U2J681JW31","96:GRM31A7U2J681JW31, for General Use, U2J(-55to125[deg]), 630[V], 680[pF], +/-5[%], 100[MHz]-3[GHz]:96",68,"96","GRM31A7U2J681JW31");
+create_constant_form("GRM31B5C2J681JW01","97:GRM31B5C2J681JW01, for General Use, C0G(-55to125[deg]), 630[V], 680[pF], +/-5[%], 100[MHz]-3[GHz]:97",68,"97","GRM31B5C2J681JW01");
+create_constant_form("GRM31B7U3A681JW31","98:GRM31B7U3A681JW31, for General Use, U2J(-55to125[deg]), 1000[V], 680[pF], +/-5[%], 100[MHz]-3[GHz]:98",68,"98","GRM31B7U3A681JW31");
+create_constant_form("GRM31BR73A681KW01","99:GRM31BR73A681KW01, for General Use, X7R(-55to125[deg]), 1000[V], 680[pF], +/-10[%], 100[kHz]-6[GHz]:99",68,"99","GRM31BR73A681KW01");
+create_constant_form("GRM31A7U2J821JW31","100:GRM31A7U2J821JW31, for General Use, U2J(-55to125[deg]), 630[V], 820[pF], +/-5[%], 100[MHz]-3[GHz]:100",68,"100","GRM31A7U2J821JW31");
+create_constant_form("GRM31B5C2J821JW01","101:GRM31B5C2J821JW01, for General Use, C0G(-55to125[deg]), 630[V], 820[pF], +/-5[%], 100[MHz]-3[GHz]:101",68,"101","GRM31B5C2J821JW01");
+create_constant_form("GRM31C7U3A821JW32","102:GRM31C7U3A821JW32, for General Use, U2J(-55to125[deg]), 1000[V], 820[pF], +/-5[%], 100[MHz]-3[GHz]:102",68,"102","GRM31C7U3A821JW32");
+create_constant_form("GRM31A7U2J102JW31","103:GRM31A7U2J102JW31, for General Use, U2J(-55to125[deg]), 630[V], 1000[pF], +/-5[%], 1[MHz]-3[GHz]:103",68,"103","GRM31A7U2J102JW31");
+create_constant_form("GRM31B5C2J102JW01","104:GRM31B5C2J102JW01, for General Use, C0G(-55to125[deg]), 630[V], 1000[pF], +/-5[%], 1[MHz]-3[GHz]:104",68,"104","GRM31B5C2J102JW01");
+create_constant_form("GRM31BR72J102KW01","105:GRM31BR72J102KW01, for General Use, X7R(-55to125[deg]), 630[V], 1000[pF], +/-10[%], 100[kHz]-6[GHz]:105",68,"105","GRM31BR72J102KW01");
+create_constant_form("GRM31BR73A102KW01","106:GRM31BR73A102KW01, for General Use, X7R(-55to125[deg]), 1000[V], 1000[pF], +/-10[%], 100[kHz]-6[GHz]:106",68,"106","GRM31BR73A102KW01");
+create_constant_form("GRM31C7U3A102JW32","107:GRM31C7U3A102JW32, for General Use, U2J(-55to125[deg]), 1000[V], 1000[pF], +/-5[%], 1[MHz]-3[GHz]:107",68,"107","GRM31C7U3A102JW32");
+create_constant_form("GRM31A7U2J122JW31","108:GRM31A7U2J122JW31, for General Use, U2J(-55to125[deg]), 630[V], 1200[pF], +/-5[%], 1[MHz]-3[GHz]:108",68,"108","GRM31A7U2J122JW31");
+create_constant_form("GRM31A7U2J152JW31","109:GRM31A7U2J152JW31, for General Use, U2J(-55to125[deg]), 630[V], 1500[pF], +/-5[%], 1[MHz]-3[GHz]:109",68,"109","GRM31A7U2J152JW31");
+create_constant_form("GRM31BR72J152KW01","110:GRM31BR72J152KW01, for General Use, X7R(-55to125[deg]), 630[V], 1500[pF], +/-10[%], 100[kHz]-6[GHz]:110",68,"110","GRM31BR72J152KW01");
+create_constant_form("GRM31BR73A152KW01","111:GRM31BR73A152KW01, for General Use, X7R(-55to125[deg]), 1000[V], 1500[pF], +/-10[%], 100[kHz]-6[GHz]:111",68,"111","GRM31BR73A152KW01");
+create_constant_form("GRM31A7U2J182JW31","112:GRM31A7U2J182JW31, for General Use, U2J(-55to125[deg]), 630[V], 1800[pF], +/-5[%], 1[MHz]-3[GHz]:112",68,"112","GRM31A7U2J182JW31");
+create_constant_form("GRM3195C2A222JA01","113:GRM3195C2A222JA01, for General Use, C0G(-55to125[deg]), 100[V], 2200[pF], +/-5[%], 1[MHz]-6[GHz]:113",68,"113","GRM3195C2A222JA01");
+create_constant_form("GRM319R72A222KA01","114:GRM319R72A222KA01, for General Use, X7R(-55to125[deg]), 100[V], 2200[pF], +/-10[%], 100[kHz]-6[GHz]:114",68,"114","GRM319R72A222KA01");
+create_constant_form("GRM31A7U2J222JW31","115:GRM31A7U2J222JW31, for General Use, U2J(-55to125[deg]), 630[V], 2200[pF], +/-5[%], 1[MHz]-3[GHz]:115",68,"115","GRM31A7U2J222JW31");
+create_constant_form("GRM31BR72J222KW01","116:GRM31BR72J222KW01, for General Use, X7R(-55to125[deg]), 630[V], 2200[pF], +/-10[%], 100[kHz]-6[GHz]:116",68,"116","GRM31BR72J222KW01");
+create_constant_form("GRM31BR73A222KW01","117:GRM31BR73A222KW01, for General Use, X7R(-55to125[deg]), 1000[V], 2200[pF], +/-10[%], 100[kHz]-6[GHz]:117",68,"117","GRM31BR73A222KW01");
+create_constant_form("GRM31A7U2E272JW31","118:GRM31A7U2E272JW31, for General Use, U2J(-55to125[deg]), 250[V], 2700[pF], +/-5[%], 1[MHz]-3[GHz]:118",68,"118","GRM31A7U2E272JW31");
+create_constant_form("GRM31B7U2J272JW31","119:GRM31B7U2J272JW31, for General Use, U2J(-55to125[deg]), 630[V], 2700[pF], +/-5[%], 1[MHz]-3[GHz]:119",68,"119","GRM31B7U2J272JW31");
+create_constant_form("GRM3195C2A332JA01","120:GRM3195C2A332JA01, for General Use, C0G(-55to125[deg]), 100[V], 3300[pF], +/-5[%], 1[MHz]-6[GHz]:120",68,"120","GRM3195C2A332JA01");
+create_constant_form("GRM31A7U2E332JW31","121:GRM31A7U2E332JW31, for General Use, U2J(-55to125[deg]), 250[V], 3300[pF], +/-5[%], 1[MHz]-3[GHz]:121",68,"121","GRM31A7U2E332JW31");
+create_constant_form("GRM31B7U2J332JW31","122:GRM31B7U2J332JW31, for General Use, U2J(-55to125[deg]), 630[V], 3300[pF], +/-5[%], 1[MHz]-3[GHz]:122",68,"122","GRM31B7U2J332JW31");
+create_constant_form("GRM31BR72J332KW01","123:GRM31BR72J332KW01, for General Use, X7R(-55to125[deg]), 630[V], 3300[pF], +/-10[%], 100[kHz]-6[GHz]:123",68,"123","GRM31BR72J332KW01");
+create_constant_form("GRM31BR73A332KW01","124:GRM31BR73A332KW01, for General Use, X7R(-55to125[deg]), 1000[V], 3300[pF], +/-10[%], 100[kHz]-6[GHz]:124",68,"124","GRM31BR73A332KW01");
+create_constant_form("GRM31A7U2E392JW31","125:GRM31A7U2E392JW31, for General Use, U2J(-55to125[deg]), 250[V], 3900[pF], +/-5[%], 1[MHz]-3[GHz]:125",68,"125","GRM31A7U2E392JW31");
+create_constant_form("GRM31C7U2J392JW32","126:GRM31C7U2J392JW32, for General Use, U2J(-55to125[deg]), 630[V], 3900[pF], +/-5[%], 1[MHz]-3[GHz]:126",68,"126","GRM31C7U2J392JW32");
+create_constant_form("GRM3195C1H472JA01","127:GRM3195C1H472JA01, for General Use, C0G(-55to125[deg]), 50[V], 4700[pF], +/-5[%], 1[MHz]-6[GHz]:127",68,"127","GRM3195C1H472JA01");
+create_constant_form("GRM3195C2A472JA01","128:GRM3195C2A472JA01, for General Use, C0G(-55to125[deg]), 100[V], 4700[pF], +/-5[%], 1[MHz]-6[GHz]:128",68,"128","GRM3195C2A472JA01");
+create_constant_form("GRM31A7U2E472JW31","129:GRM31A7U2E472JW31, for General Use, U2J(-55to125[deg]), 250[V], 4700[pF], +/-5[%], 1[MHz]-3[GHz]:129",68,"129","GRM31A7U2E472JW31");
+create_constant_form("GRM31BR72J472KW01","130:GRM31BR72J472KW01, for General Use, X7R(-55to125[deg]), 630[V], 4700[pF], +/-10[%], 100[kHz]-6[GHz]:130",68,"130","GRM31BR72J472KW01");
+create_constant_form("GRM31BR73A472KW01","131:GRM31BR73A472KW01, for General Use, X7R(-55to125[deg]), 1000[V], 4700[pF], +/-10[%], 100[kHz]-6[GHz]:131",68,"131","GRM31BR73A472KW01");
+create_constant_form("GRM31C7U2J472JW32","132:GRM31C7U2J472JW32, for General Use, U2J(-55to125[deg]), 630[V], 4700[pF], +/-5[%], 1[MHz]-3[GHz]:132",68,"132","GRM31C7U2J472JW32");
+create_constant_form("GRM3195C2A562JA01","133:GRM3195C2A562JA01, for General Use, C0G(-55to125[deg]), 100[V], 5600[pF], +/-5[%], 1[MHz]-6[GHz]:133",68,"133","GRM3195C2A562JA01");
+create_constant_form("GRM31A7U2E562JW31","134:GRM31A7U2E562JW31, for General Use, U2J(-55to125[deg]), 250[V], 5600[pF], +/-5[%], 1[MHz]-3[GHz]:134",68,"134","GRM31A7U2E562JW31");
+create_constant_form("GRM3195C1H682JA01","135:GRM3195C1H682JA01, for General Use, C0G(-55to125[deg]), 50[V], 6800[pF], +/-5[%], 1[MHz]-6[GHz]:135",68,"135","GRM3195C1H682JA01");
+create_constant_form("GRM3195C2A682JA01","136:GRM3195C2A682JA01, for General Use, C0G(-55to125[deg]), 100[V], 6800[pF], +/-5[%], 1[MHz]-6[GHz]:136",68,"136","GRM3195C2A682JA01");
+create_constant_form("GRM31B7U2E682JW31","137:GRM31B7U2E682JW31, for General Use, U2J(-55to125[deg]), 250[V], 6800[pF], +/-5[%], 1[MHz]-3[GHz]:137",68,"137","GRM31B7U2E682JW31");
+create_constant_form("GRM31BR72J682KW01","138:GRM31BR72J682KW01, for General Use, X7R(-55to125[deg]), 630[V], 6800[pF], +/-10[%], 100[kHz]-6[GHz]:138",68,"138","GRM31BR72J682KW01");
+create_constant_form("GRM31B7U2E822JW31","139:GRM31B7U2E822JW31, for General Use, U2J(-55to125[deg]), 250[V], 8200[pF], +/-5[%], 1[MHz]-3[GHz]:139",68,"139","GRM31B7U2E822JW31");
+create_constant_form("GRM3195C1H103JA01","140:GRM3195C1H103JA01, for General Use, C0G(-55to125[deg]), 50[V], 10000[pF], +/-5[%], 1[MHz]-6[GHz]:140",68,"140","GRM3195C1H103JA01");
+create_constant_form("GRM3195C2A103JA01","141:GRM3195C2A103JA01, for General Use, C0G(-55to125[deg]), 100[V], 10000[pF], +/-5[%], 1[MHz]-6[GHz]:141",68,"141","GRM3195C2A103JA01");
+create_constant_form("GRM31B7U2E103JW31","142:GRM31B7U2E103JW31, for General Use, U2J(-55to125[deg]), 250[V], 10000[pF], +/-5[%], 1[MHz]-3[GHz]:142",68,"142","GRM31B7U2E103JW31");
+create_constant_form("GRM31BR72J103KW01","143:GRM31BR72J103KW01, for General Use, X7R(-55to125[deg]), 630[V], 10000[pF], +/-10[%], 100[kHz]-6[GHz]:143",68,"143","GRM31BR72J103KW01");
+create_constant_form("GRM3195C1H153JA01","144:GRM3195C1H153JA01, for General Use, C0G(-55to125[deg]), 50[V], 15000[pF], +/-5[%], 1[MHz]-6[GHz]:144",68,"144","GRM3195C1H153JA01");
+create_constant_form("GRM3195C2A153JA01","145:GRM3195C2A153JA01, for General Use, C0G(-55to125[deg]), 100[V], 15000[pF], +/-5[%], 1[MHz]-6[GHz]:145",68,"145","GRM3195C2A153JA01");
+create_constant_form("GRM31BR72E153KW01","146:GRM31BR72E153KW01, for General Use, X7R(-55to125[deg]), 250[V], 15000[pF], +/-10[%], 100[kHz]-6[GHz]:146",68,"146","GRM31BR72E153KW01");
+create_constant_form("GRM31CR72J153KW03","147:GRM31CR72J153KW03, for General Use, X7R(-55to125[deg]), 630[V], 15000[pF], +/-10[%], 100[kHz]-6[GHz]:147",68,"147","GRM31CR72J153KW03");
+create_constant_form("GRM3195C1H223JA01","148:GRM3195C1H223JA01, for General Use, C0G(-55to125[deg]), 50[V], 22000[pF], +/-5[%], 1[MHz]-6[GHz]:148",68,"148","GRM3195C1H223JA01");
+create_constant_form("GRM3195C2A223JA01","149:GRM3195C2A223JA01, for General Use, C0G(-55to125[deg]), 100[V], 22000[pF], +/-5[%], 1[MHz]-6[GHz]:149",68,"149","GRM3195C2A223JA01");
+create_constant_form("GRM31BR72E223KW01","150:GRM31BR72E223KW01, for General Use, X7R(-55to125[deg]), 250[V], 22000[pF], +/-10[%], 100[kHz]-6[GHz]:150",68,"150","GRM31BR72E223KW01");
+create_constant_form("GRM31MR72A223KA01","151:GRM31MR72A223KA01, for General Use, X7R(-55to125[deg]), 100[V], 22000[pF], +/-10[%], 100[kHz]-6[GHz]:151",68,"151","GRM31MR72A223KA01");
+create_constant_form("GRM31MR72A223MA01","152:GRM31MR72A223MA01, for General Use, X7R(-55to125[deg]), 100[V], 22000[pF], +/-20[%], 100[kHz]-6[GHz]:152",68,"152","GRM31MR72A223MA01");
+create_constant_form("GRM3195C1H333JA01","153:GRM3195C1H333JA01, for General Use, C0G(-55to125[deg]), 50[V], 33000[pF], +/-5[%], 1[MHz]-6[GHz]:153",68,"153","GRM3195C1H333JA01");
+create_constant_form("GRM31CR72E333KW03","154:GRM31CR72E333KW03, for General Use, X7R(-55to125[deg]), 250[V], 33000[pF], +/-10[%], 100[kHz]-6[GHz]:154",68,"154","GRM31CR72E333KW03");
+create_constant_form("GRM31M5C1H393JA01","155:GRM31M5C1H393JA01, for General Use, C0G(-55to125[deg]), 50[V], 39000[pF], +/-5[%], 1[MHz]-6[GHz]:155",68,"155","GRM31M5C1H393JA01");
+create_constant_form("GRM31CR72E473KW03","156:GRM31CR72E473KW03, for General Use, X7R(-55to125[deg]), 250[V], 47000[pF], +/-10[%], 100[kHz]-6[GHz]:156",68,"156","GRM31CR72E473KW03");
+create_constant_form("GRM31M5C1H473JA01","157:GRM31M5C1H473JA01, for General Use, C0G(-55to125[deg]), 50[V], 47000[pF], +/-5[%], 1[MHz]-6[GHz]:157",68,"157","GRM31M5C1H473JA01");
+create_constant_form("GRM31MR72A473KA01","158:GRM31MR72A473KA01, for General Use, X7R(-55to125[deg]), 100[V], 47000[pF], +/-10[%], 100[kHz]-6[GHz]:158",68,"158","GRM31MR72A473KA01");
+create_constant_form("GRM31MR72A473MA01","159:GRM31MR72A473MA01, for General Use, X7R(-55to125[deg]), 100[V], 47000[pF], +/-20[%], 100[kHz]-6[GHz]:159",68,"159","GRM31MR72A473MA01");
+create_constant_form("GRM3197U1H563JA01","160:GRM3197U1H563JA01, for General Use, U2J(-55to125[deg]), 50[V], 56000[pF], +/-5[%], 1[MHz]-6[GHz]:160",68,"160","GRM3197U1H563JA01");
+create_constant_form("GRM31BR72E683KW01","161:GRM31BR72E683KW01, for General Use, X7R(-55to125[deg]), 250[V], 68000[pF], +/-10[%], 100[kHz]-6[GHz]:161",68,"161","GRM31BR72E683KW01");
+create_constant_form("GRM31C5C1H683JA01","162:GRM31C5C1H683JA01, for General Use, C0G(-55to125[deg]), 50[V], 68000[pF], +/-5[%], 1[MHz]-6[GHz]:162",68,"162","GRM31C5C1H683JA01");
+create_constant_form("GRM31C7U2A683JA01","163:GRM31C7U2A683JA01, for General Use, U2J(-55to125[deg]), 100[V], 68000[pF], +/-5[%], 1[MHz]-6[GHz]:163",68,"163","GRM31C7U2A683JA01");
+create_constant_form("GRM31M7U1H683JA01","164:GRM31M7U1H683JA01, for General Use, U2J(-55to125[deg]), 50[V], 68000[pF], +/-5[%], 1[MHz]-6[GHz]:164",68,"164","GRM31M7U1H683JA01");
+create_constant_form("GRM31C5C1H823JA01","165:GRM31C5C1H823JA01, for General Use, C0G(-55to125[deg]), 50[V], 82000[pF], +/-5[%], 1[MHz]-6[GHz]:165",68,"165","GRM31C5C1H823JA01");
+create_constant_form("GRM319R72A104KA01","166:GRM319R72A104KA01, for General Use, X7R(-55to125[deg]), 100[V], 100000[pF], +/-10[%], 100[kHz]-6[GHz]:166",68,"166","GRM319R72A104KA01");
+create_constant_form("GRM31C5C1H104JA01","167:GRM31C5C1H104JA01, for General Use, C0G(-55to125[deg]), 50[V], 100000[pF], +/-5[%], 1[MHz]-6[GHz]:167",68,"167","GRM31C5C1H104JA01");
+create_constant_form("GRM31C7U2A104JA01","168:GRM31C7U2A104JA01, for General Use, U2J(-55to125[deg]), 100[V], 100000[pF], +/-5[%], 1[MHz]-6[GHz]:168",68,"168","GRM31C7U2A104JA01");
+create_constant_form("GRM31CR72E104KW03","169:GRM31CR72E104KW03, for General Use, X7R(-55to125[deg]), 250[V], 100000[pF], +/-10[%], 100[kHz]-6[GHz]:169",68,"169","GRM31CR72E104KW03");
+create_constant_form("GRM31M7U1H104JA01","170:GRM31M7U1H104JA01, for General Use, U2J(-55to125[deg]), 50[V], 100000[pF], +/-5[%], 1[MHz]-6[GHz]:170",68,"170","GRM31M7U1H104JA01");
+create_constant_form("GRM31MR71H224KA01","171:GRM31MR71H224KA01, for General Use, X7R(-55to125[deg]), 50[V], 220000[pF], +/-10[%], 100[kHz]-6[GHz]:171",68,"171","GRM31MR71H224KA01");
+create_constant_form("GRM31MR71H224MA01","172:GRM31MR71H224MA01, for General Use, X7R(-55to125[deg]), 50[V], 220000[pF], +/-20[%], 100[kHz]-6[GHz]:172",68,"172","GRM31MR71H224MA01");
+create_constant_form("GRM31MR72A224KA01","173:GRM31MR72A224KA01, for General Use, X7R(-55to125[deg]), 100[V], 220000[pF], +/-10[%], 100[kHz]-6[GHz]:173",68,"173","GRM31MR72A224KA01");
+create_constant_form("GRM319R71E474KA01","174:GRM319R71E474KA01, for General Use, X7R(-55to125[deg]), 25[V], 470000[pF], +/-10[%], 100[kHz]-6[GHz]:174",68,"174","GRM319R71E474KA01");
+create_constant_form("GRM31MR71E474KA01","175:GRM31MR71E474KA01, for General Use, X7R(-55to125[deg]), 25[V], 470000[pF], +/-10[%], 100[kHz]-6[GHz]:175",68,"175","GRM31MR71E474KA01");
+create_constant_form("GRM31MR71H474KA01","176:GRM31MR71H474KA01, for General Use, X7R(-55to125[deg]), 50[V], 470000[pF], +/-10[%], 100[kHz]-6[GHz]:176",68,"176","GRM31MR71H474KA01");
+create_constant_form("GRM31MR71H474MA01","177:GRM31MR71H474MA01, for General Use, X7R(-55to125[deg]), 50[V], 470000[pF], +/-20[%], 100[kHz]-6[GHz]:177",68,"177","GRM31MR71H474MA01");
+create_constant_form("GRM31MR72A474KA35","178:GRM31MR72A474KA35, for General Use, X7R(-55to125[deg]), 100[V], 470000[pF], +/-10[%], 100[kHz]-6[GHz]:178",68,"178","GRM31MR72A474KA35");
+create_constant_form("GRM31MR72A474MA35","179:GRM31MR72A474MA35, for General Use, X7R(-55to125[deg]), 100[V], 470000[pF], +/-20[%], 100[kHz]-6[GHz]:179",68,"179","GRM31MR72A474MA35");
+create_constant_form("GRM31MR72A684KA35","180:GRM31MR72A684KA35, for General Use, X7R(-55to125[deg]), 100[V], 680000[pF], +/-10[%], 100[kHz]-6[GHz]:180",68,"180","GRM31MR72A684KA35");
+create_constant_form("GRM319R61A105KA01","181:GRM319R61A105KA01, for General Use, X5R(-55to85[deg]), 10[V], 1000000[pF], +/-10[%], 100[Hz]-6[GHz]:181",68,"181","GRM319R61A105KA01");
+create_constant_form("GRM319R61C105KAA3","182:GRM319R61C105KAA3, for General Use, X5R(-55to85[deg]), 16[V], 1000000[pF], +/-10[%], 100[Hz]-6[GHz]:182",68,"182","GRM319R61C105KAA3");
+create_constant_form("GRM319R61E105KC36","183:GRM319R61E105KC36, for General Use, X5R(-55to85[deg]), 25[V], 1000000[pF], +/-10[%], 100[Hz]-6[GHz]:183",68,"183","GRM319R61E105KC36");
+create_constant_form("GRM319R71A105KA01","184:GRM319R71A105KA01, for General Use, X7R(-55to125[deg]), 10[V], 1000000[pF], +/-10[%], 100[Hz]-6[GHz]:184",68,"184","GRM319R71A105KA01");
+create_constant_form("GRM319R71C105KAA3","185:GRM319R71C105KAA3, for General Use, X7R(-55to125[deg]), 16[V], 1000000[pF], +/-10[%], 100[Hz]-6[GHz]:185",68,"185","GRM319R71C105KAA3");
+create_constant_form("GRM31CR72A105KA01","186:GRM31CR72A105KA01, for General Use, X7R(-55to125[deg]), 100[V], 1000000[pF], +/-10[%], 100[Hz]-6[GHz]:186",68,"186","GRM31CR72A105KA01");
+create_constant_form("GRM31MR61C105KA01","187:GRM31MR61C105KA01, for General Use, X5R(-55to85[deg]), 16[V], 1000000[pF], +/-10[%], 100[Hz]-6[GHz]:187",68,"187","GRM31MR61C105KA01");
+create_constant_form("GRM31MR71C105KA01","188:GRM31MR71C105KA01, for General Use, X7R(-55to125[deg]), 16[V], 1000000[pF], +/-10[%], 100[Hz]-6[GHz]:188",68,"188","GRM31MR71C105KA01");
+create_constant_form("GRM31MR71E105KA01","189:GRM31MR71E105KA01, for General Use, X7R(-55to125[deg]), 25[V], 1000000[pF], +/-10[%], 100[Hz]-6[GHz]:189",68,"189","GRM31MR71E105KA01");
+create_constant_form("GRM31MR71H105KA88","190:GRM31MR71H105KA88, for General Use, X7R(-55to125[deg]), 50[V], 1000000[pF], +/-10[%], 100[Hz]-6[GHz]:190",68,"190","GRM31MR71H105KA88");
+create_constant_form("GRM316C81C225KA12","191:GRM316C81C225KA12, for General Use, X6S(-55to105[deg]), 16[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:191",68,"191","GRM316C81C225KA12");
+create_constant_form("GRM316D71C225KA12","192:GRM316D71C225KA12, for General Use, X7T(-55to125[deg]), 16[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:192",68,"192","GRM316D71C225KA12");
+create_constant_form("GRM316D71C225MA12","193:GRM316D71C225MA12, for General Use, X7T(-55to125[deg]), 16[V], 2200000[pF], +/-20[%], 100[Hz]-6[GHz]:193",68,"193","GRM316D71C225MA12");
+create_constant_form("GRM316R61C225KA88","194:GRM316R61C225KA88, for General Use, X5R(-55to85[deg]), 16[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:194",68,"194","GRM316R61C225KA88");
+create_constant_form("GRM316R61E225KA12","195:GRM316R61E225KA12, for General Use, X5R(-55to85[deg]), 25[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:195",68,"195","GRM316R61E225KA12");
+create_constant_form("GRM319C8YA225KA12","196:GRM319C8YA225KA12, for General Use, X6S(-55to105[deg]), 35[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:196",68,"196","GRM319C8YA225KA12");
+create_constant_form("GRM319C8YA225MA12","197:GRM319C8YA225MA12, for General Use, X6S(-55to105[deg]), 35[V], 2200000[pF], +/-20[%], 100[Hz]-6[GHz]:197",68,"197","GRM319C8YA225MA12");
+create_constant_form("GRM319R61A225KA01","198:GRM319R61A225KA01, for General Use, X5R(-55to85[deg]), 10[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:198",68,"198","GRM319R61A225KA01");
+create_constant_form("GRM31CR61H225KA88","199:GRM31CR61H225KA88, for General Use, X5R(-55to85[deg]), 50[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:199",68,"199","GRM31CR61H225KA88");
+create_constant_form("GRM31CR71H225KA88","200:GRM31CR71H225KA88, for General Use, X7R(-55to125[deg]), 50[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:200",68,"200","GRM31CR71H225KA88");
+create_constant_form("GRM31CR72A225KA73","201:GRM31CR72A225KA73, for General Use, X7R(-55to125[deg]), 100[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:201",68,"201","GRM31CR72A225KA73");
+create_constant_form("GRM31MR61A225KA01","202:GRM31MR61A225KA01, for General Use, X5R(-55to85[deg]), 10[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:202",68,"202","GRM31MR61A225KA01");
+create_constant_form("GRM31MR61C225KA35","203:GRM31MR61C225KA35, for General Use, X5R(-55to85[deg]), 16[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:203",68,"203","GRM31MR61C225KA35");
+create_constant_form("GRM31MR71A225KA01","204:GRM31MR71A225KA01, for General Use, X7R(-55to125[deg]), 10[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:204",68,"204","GRM31MR71A225KA01");
+create_constant_form("GRM31MR71C225KA35","205:GRM31MR71C225KA35, for General Use, X7R(-55to125[deg]), 16[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:205",68,"205","GRM31MR71C225KA35");
+create_constant_form("GRM31MR71E225KA93","206:GRM31MR71E225KA93, for General Use, X7R(-55to125[deg]), 25[V], 2200000[pF], +/-10[%], 100[Hz]-6[GHz]:206",68,"206","GRM31MR71E225KA93");
+create_constant_form("GRM316R61A475KE19","207:GRM316R61A475KE19, for General Use, X5R(-55to85[deg]), 10[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:207",68,"207","GRM316R61A475KE19");
+create_constant_form("GRM319C81C475KA12","208:GRM319C81C475KA12, for General Use, X6S(-55to105[deg]), 16[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:208",68,"208","GRM319C81C475KA12");
+create_constant_form("GRM319D71C475KA12","209:GRM319D71C475KA12, for General Use, X7T(-55to125[deg]), 16[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:209",68,"209","GRM319D71C475KA12");
+create_constant_form("GRM319D71C475MA12","210:GRM319D71C475MA12, for General Use, X7T(-55to125[deg]), 16[V], 4700000[pF], +/-20[%], 100[Hz]-6[GHz]:210",68,"210","GRM319D71C475MA12");
+create_constant_form("GRM319R61A475KA01","211:GRM319R61A475KA01, for General Use, X5R(-55to85[deg]), 10[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:211",68,"211","GRM319R61A475KA01");
+create_constant_form("GRM319R61C475KA88","212:GRM319R61C475KA88, for General Use, X5R(-55to85[deg]), 16[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:212",68,"212","GRM319R61C475KA88");
+create_constant_form("GRM319R61E475KA12","213:GRM319R61E475KA12, for General Use, X5R(-55to85[deg]), 25[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:213",68,"213","GRM319R61E475KA12");
+create_constant_form("GRM31CR60J475KA01","214:GRM31CR60J475KA01, for General Use, X5R(-55to85[deg]), 6.3[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:214",68,"214","GRM31CR60J475KA01");
+create_constant_form("GRM31CR61A475KA01","215:GRM31CR61A475KA01, for General Use, X5R(-55to85[deg]), 10[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:215",68,"215","GRM31CR61A475KA01");
+create_constant_form("GRM31CR61C475KA01","216:GRM31CR61C475KA01, for General Use, X5R(-55to85[deg]), 16[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:216",68,"216","GRM31CR61C475KA01");
+create_constant_form("GRM31CR61E475KA88","217:GRM31CR61E475KA88, for General Use, X5R(-55to85[deg]), 25[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:217",68,"217","GRM31CR61E475KA88");
+create_constant_form("GRM31CR71A475KA01","218:GRM31CR71A475KA01, for General Use, X7R(-55to125[deg]), 10[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:218",68,"218","GRM31CR71A475KA01");
+create_constant_form("GRM31CR71C475KA01","219:GRM31CR71C475KA01, for General Use, X7R(-55to125[deg]), 16[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:219",68,"219","GRM31CR71C475KA01");
+create_constant_form("GRM31CR71E475KA88","220:GRM31CR71E475KA88, for General Use, X7R(-55to125[deg]), 25[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:220",68,"220","GRM31CR71E475KA88");
+create_constant_form("GRM31CR71H475KA12","221:GRM31CR71H475KA12, for General Use, X7R(-55to125[deg]), 50[V], 4700000[pF], +/-10[%], 100[Hz]-6[GHz]:221",68,"221","GRM31CR71H475KA12");
+create_constant_form("GRM31CR71H475MA12","222:GRM31CR71H475MA12, for General Use, X7R(-55to125[deg]), 50[V], 4700000[pF], +/-20[%], 100[Hz]-6[GHz]:222",68,"222","GRM31CR71H475MA12");
+create_constant_form("GRM31MC81C685KA12","223:GRM31MC81C685KA12, for General Use, X6S(-55to105[deg]), 16[V], 6800000[pF], +/-10[%], 100[Hz]-6[GHz]:223",68,"223","GRM31MC81C685KA12");
+create_constant_form("GRM31MC81C685MA12","224:GRM31MC81C685MA12, for General Use, X6S(-55to105[deg]), 16[V], 6800000[pF], +/-20[%], 100[Hz]-6[GHz]:224",68,"224","GRM31MC81C685MA12");
+create_constant_form("GRM319C80J106KE19","225:GRM319C80J106KE19, for General Use, X6S(-55to105[deg]), 6.3[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:225",68,"225","GRM319C80J106KE19");
+create_constant_form("GRM319C81A106KA12","226:GRM319C81A106KA12, for General Use, X6S(-55to105[deg]), 10[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:226",68,"226","GRM319C81A106KA12");
+create_constant_form("GRM319R60J106KE19","227:GRM319R60J106KE19, for General Use, X5R(-55to85[deg]), 6.3[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:227",68,"227","GRM319R60J106KE19");
+create_constant_form("GRM319R61A106KE19","228:GRM319R61A106KE19, for General Use, X5R(-55to85[deg]), 10[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:228",68,"228","GRM319R61A106KE19");
+create_constant_form("GRM319R61C106KE15","229:GRM319R61C106KE15, for General Use, X5R(-55to85[deg]), 16[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:229",68,"229","GRM319R61C106KE15");
+create_constant_form("GRM31CC81E106KE15","230:GRM31CC81E106KE15, for General Use, X6S(-55to105[deg]), 25[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:230",68,"230","GRM31CC81E106KE15");
+create_constant_form("GRM31CR60J106KA01","231:GRM31CR60J106KA01, for General Use, X5R(-55to85[deg]), 6.3[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:231",68,"231","GRM31CR60J106KA01");
+create_constant_form("GRM31CR61A106KA01","232:GRM31CR61A106KA01, for General Use, X5R(-55to85[deg]), 10[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:232",68,"232","GRM31CR61A106KA01");
+create_constant_form("GRM31CR61C106KA88","233:GRM31CR61C106KA88, for General Use, X5R(-55to85[deg]), 16[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:233",68,"233","GRM31CR61C106KA88");
+create_constant_form("GRM31CR61E106KA12","234:GRM31CR61E106KA12, for General Use, X5R(-55to85[deg]), 25[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:234",68,"234","GRM31CR61E106KA12");
+create_constant_form("GRM31CR70J106KA01","235:GRM31CR70J106KA01, for General Use, X7R(-55to125[deg]), 6.3[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:235",68,"235","GRM31CR70J106KA01");
+create_constant_form("GRM31CR71A106KA01","236:GRM31CR71A106KA01, for General Use, X7R(-55to125[deg]), 10[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:236",68,"236","GRM31CR71A106KA01");
+create_constant_form("GRM31CR71C106KA12","237:GRM31CR71C106KA12, for General Use, X7R(-55to125[deg]), 16[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:237",68,"237","GRM31CR71C106KA12");
+create_constant_form("GRM31CR71C106KAC7","238:GRM31CR71C106KAC7, for General Use, X7R(-55to125[deg]), 16[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:238",68,"238","GRM31CR71C106KAC7");
+create_constant_form("GRM31CR71C106MA12","239:GRM31CR71C106MA12, for General Use, X7R(-55to125[deg]), 16[V], 10000000[pF], +/-20[%], 100[Hz]-6[GHz]:239",68,"239","GRM31CR71C106MA12");
+create_constant_form("GRM31CR71E106KA12","240:GRM31CR71E106KA12, for General Use, X7R(-55to125[deg]), 25[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:240",68,"240","GRM31CR71E106KA12");
+create_constant_form("GRM31MC81C106KA12","241:GRM31MC81C106KA12, for General Use, X6S(-55to105[deg]), 16[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:241",68,"241","GRM31MC81C106KA12");
+create_constant_form("GRM31MR61A106KE19","242:GRM31MR61A106KE19, for General Use, X5R(-55to85[deg]), 10[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:242",68,"242","GRM31MR61A106KE19");
+create_constant_form("GRM31MR61C106KA12","243:GRM31MR61C106KA12, for General Use, X5R(-55to85[deg]), 16[V], 10000000[pF], +/-10[%], 100[Hz]-6[GHz]:243",68,"243","GRM31MR61C106KA12");
+create_constant_form("GRM31MR61E106MA12","244:GRM31MR61E106MA12, for General Use, X5R(-55to85[deg]), 25[V], 10000000[pF], +/-20[%], 100[Hz]-6[GHz]:244",68,"244","GRM31MR61E106MA12");
+create_constant_form("GRM31CC70G226ME01","245:GRM31CC70G226ME01, for General Use, X7S(-55to125[deg]), 4[V], 22000000[pF], +/-20[%], 100[Hz]-6[GHz]:245",68,"245","GRM31CC70G226ME01");
+create_constant_form("GRM31CC70J226KE15","246:GRM31CC70J226KE15, for General Use, X7S(-55to125[deg]), 6.3[V], 22000000[pF], +/-10[%], 100[Hz]-6[GHz]:246",68,"246","GRM31CC70J226KE15");
+create_constant_form("GRM31CC80G226ME19","247:GRM31CC80G226ME19, for General Use, X6S(-55to105[deg]), 4[V], 22000000[pF], +/-20[%], 100[Hz]-6[GHz]:247",68,"247","GRM31CC80G226ME19");
+create_constant_form("GRM31CC80J226KE19","248:GRM31CC80J226KE19, for General Use, X6S(-55to105[deg]), 6.3[V], 22000000[pF], +/-10[%], 100[Hz]-6[GHz]:248",68,"248","GRM31CC80J226KE19");
+create_constant_form("GRM31CC80J226ME19","249:GRM31CC80J226ME19, for General Use, X6S(-55to105[deg]), 6.3[V], 22000000[pF], +/-20[%], 100[Hz]-6[GHz]:249",68,"249","GRM31CC80J226ME19");
+create_constant_form("GRM31CC81A226KE19","250:GRM31CC81A226KE19, for General Use, X6S(-55to105[deg]), 10[V], 22000000[pF], +/-10[%], 100[Hz]-6[GHz]:250",68,"250","GRM31CC81A226KE19");
+create_constant_form("GRM31CC81A226ME19","251:GRM31CC81A226ME19, for General Use, X6S(-55to105[deg]), 10[V], 22000000[pF], +/-20[%], 100[Hz]-6[GHz]:251",68,"251","GRM31CC81A226ME19");
+create_constant_form("GRM31CC81C226ME15","252:GRM31CC81C226ME15, for General Use, X6S(-55to105[deg]), 16[V], 22000000[pF], +/-20[%], 100[Hz]-6[GHz]:252",68,"252","GRM31CC81C226ME15");
+create_constant_form("GRM31CD71A226KE15","253:GRM31CD71A226KE15, for General Use, X7T(-55to125[deg]), 10[V], 22000000[pF], +/-10[%], 100[Hz]-6[GHz]:253",68,"253","GRM31CD71A226KE15");
+create_constant_form("GRM31CD71A226ME15","254:GRM31CD71A226ME15, for General Use, X7T(-55to125[deg]), 10[V], 22000000[pF], +/-20[%], 100[Hz]-6[GHz]:254",68,"254","GRM31CD71A226ME15");
+create_constant_form("GRM31CR60J226ME19","255:GRM31CR60J226ME19, for General Use, X5R(-55to85[deg]), 6.3[V], 22000000[pF], +/-20[%], 100[Hz]-6[GHz]:255",68,"255","GRM31CR60J226ME19");
+create_constant_form("GRM31CR61A226KE19","256:GRM31CR61A226KE19, for General Use, X5R(-55to85[deg]), 10[V], 22000000[pF], +/-10[%], 100[Hz]-6[GHz]:256",68,"256","GRM31CR61A226KE19");
+create_constant_form("GRM31CR61A226ME19","257:GRM31CR61A226ME19, for General Use, X5R(-55to85[deg]), 10[V], 22000000[pF], +/-20[%], 100[Hz]-6[GHz]:257",68,"257","GRM31CR61A226ME19");
+create_constant_form("GRM31CR61C226ME15","258:GRM31CR61C226ME15, for General Use, X5R(-55to85[deg]), 16[V], 22000000[pF], +/-20[%], 100[Hz]-6[GHz]:258",68,"258","GRM31CR61C226ME15");
+create_constant_form("GRM31CR70J226KE19","259:GRM31CR70J226KE19, for General Use, X7R(-55to125[deg]), 6.3[V], 22000000[pF], +/-10[%], 100[Hz]-6[GHz]:259",68,"259","GRM31CR70J226KE19");
+create_constant_form("GRM31CR70J226ME19","260:GRM31CR70J226ME19, for General Use, X7R(-55to125[deg]), 6.3[V], 22000000[pF], +/-20[%], 100[Hz]-6[GHz]:260",68,"260","GRM31CR70J226ME19");
+create_constant_form("GRM31CR71A226KE15","261:GRM31CR71A226KE15, for General Use, X7R(-55to125[deg]), 10[V], 22000000[pF], +/-10[%], 100[Hz]-6[GHz]:261",68,"261","GRM31CR71A226KE15");
+create_constant_form("GRM31CR71A226ME15","262:GRM31CR71A226ME15, for General Use, X7R(-55to125[deg]), 10[V], 22000000[pF], +/-20[%], 100[Hz]-6[GHz]:262",68,"262","GRM31CR71A226ME15");
+create_constant_form("GRM31CC80G476ME19","263:GRM31CC80G476ME19, for General Use, X6S(-55to105[deg]), 4[V], 47000000[pF], +/-20[%], 100[Hz]-6[GHz]:263",68,"263","GRM31CC80G476ME19");
+create_constant_form("GRM31CC80J476ME18","264:GRM31CC80J476ME18, for General Use, X6S(-55to105[deg]), 6.3[V], 47000000[pF], +/-20[%], 100[Hz]-6[GHz]:264",68,"264","GRM31CC80J476ME18");
+create_constant_form("GRM31CE70G476ME15","265:GRM31CE70G476ME15, for General Use, X7U(-55to125[deg]), 4[V], 47000000[pF], +/-20[%], 100[Hz]-6[GHz]:265",68,"265","GRM31CE70G476ME15");
+create_constant_form("GRM31CE70J476ME15","266:GRM31CE70J476ME15, for General Use, X7U(-55to125[deg]), 6.3[V], 47000000[pF], +/-20[%], 100[Hz]-6[GHz]:266",68,"266","GRM31CE70J476ME15");
+create_constant_form("GRM31CR60J476ME19","267:GRM31CR60J476ME19, for General Use, X5R(-55to85[deg]), 6.3[V], 47000000[pF], +/-20[%], 100[Hz]-6[GHz]:267",68,"267","GRM31CR60J476ME19");
+create_constant_form("GRM31CR61A476KE15","268:GRM31CR61A476KE15, for General Use, X5R(-55to85[deg]), 10[V], 47000000[pF], +/-10[%], 100[Hz]-6[GHz]:268",68,"268","GRM31CR61A476KE15");
+create_constant_form("GRM31CR61A476ME15","269:GRM31CR61A476ME15, for General Use, X5R(-55to85[deg]), 10[V], 47000000[pF], +/-20[%], 100[Hz]-6[GHz]:269",68,"269","GRM31CR61A476ME15");
+create_constant_form("GRM31CD80G107ME39","270:GRM31CD80G107ME39, for General Use, X6T(-55to105[deg]), 4[V], 100000000[pF], +/-20[%], 100[Hz]-6[GHz]:270",68,"270","GRM31CD80G107ME39");
+create_constant_form("GRM31CD80J107ME39","271:GRM31CD80J107ME39, for General Use, X6T(-55to105[deg]), 6.3[V], 100000000[pF], +/-20[%], 100[Hz]-6[GHz]:271",68,"271","GRM31CD80J107ME39");
+create_constant_form("GRM31CE70G107ME39","272:GRM31CE70G107ME39, for General Use, X7U(-55to125[deg]), 4[V], 100000000[pF], +/-20[%], 100[Hz]-6[GHz]:272",68,"272","GRM31CE70G107ME39");
+create_constant_form("GRM31CR60G107ME39","273:GRM31CR60G107ME39, for General Use, X5R(-55to85[deg]), 4[V], 100000000[pF], +/-20[%], 100[Hz]-6[GHz]:273",68,"273","GRM31CR60G107ME39");
+create_constant_form("GRM31CR60J107ME39","274:GRM31CR60J107ME39, for General Use, X5R(-55to85[deg]), 6.3[V], 100000000[pF], +/-20[%], 100[Hz]-6[GHz]:274",68,"274","GRM31CR60J107ME39");
+
+create_form_set("GRM31_list" 
+,"GRM31A5C2J100JW01"
+,"GRM31A5C3A100JW01"
+,"GRM31A7U2J100JW31"
+,"GRM31A7U3A100JW31"
+,"GRM31A7U3D100JW31"
+,"GRM31A5C2J120JW01"
+,"GRM31A5C3A120JW01"
+,"GRM31A7U2J120JW31"
+,"GRM31A7U3A120JW31"
+,"GRM31A7U3D120JW31"
+,"GRM31A5C2J150JW01"
+,"GRM31A5C3A150JW01"
+,"GRM31A7U2J150JW31"
+,"GRM31A7U3A150JW31"
+,"GRM31A7U3D150JW31"
+,"GRM31A5C2J180JW01"
+,"GRM31A5C3A180JW01"
+,"GRM31A7U2J180JW31"
+,"GRM31A7U3A180JW31"
+,"GRM31A7U3D180JW31"
+,"GRM31A5C2J220JW01"
+,"GRM31A5C3A220JW01"
+,"GRM31A7U2J220JW31"
+,"GRM31A7U3A220JW31"
+,"GRM31A7U3D220JW31"
+,"GRM31A5C2J270JW01"
+,"GRM31A5C3A270JW01"
+,"GRM31A7U2J270JW31"
+,"GRM31A7U3A270JW31"
+,"GRM31A7U3D270JW31"
+,"GRM31A5C2J330JW01"
+,"GRM31A5C3A330JW01"
+,"GRM31A7U2J330JW31"
+,"GRM31A7U3A330JW31"
+,"GRM31A7U3D330JW31"
+,"GRM31A5C2J390JW01"
+,"GRM31A5C3A390JW01"
+,"GRM31A7U2J390JW31"
+,"GRM31A7U3A390JW31"
+,"GRM31A7U3D390JW31"
+,"GRM31A5C2J470JW01"
+,"GRM31A5C3A470JW01"
+,"GRM31A7U2J470JW31"
+,"GRM31A7U3A470JW31"
+,"GRM31A7U3D470JW31"
+,"GRM31A5C2J560JW01"
+,"GRM31A5C3A560JW01"
+,"GRM31A7U2J560JW31"
+,"GRM31A7U3A560JW31"
+,"GRM31A7U3D560JW31"
+,"GRM31A5C2J680JW01"
+,"GRM31A5C3A680JW01"
+,"GRM31A7U2J680JW31"
+,"GRM31A7U3A680JW31"
+,"GRM31A7U3D680JW31"
+,"GRM31A5C2J820JW01"
+,"GRM31A5C3A820JW01"
+,"GRM31A7U2J820JW31"
+,"GRM31A7U3A820JW31"
+,"GRM31A5C2J101JW01"
+,"GRM31A5C3A101JW01"
+,"GRM31A7U2J101JW31"
+,"GRM31A7U3A101JW31"
+,"GRM31A5C2J121JW01"
+,"GRM31A5C3A121JW01"
+,"GRM31A7U2J121JW31"
+,"GRM31A7U3A121JW31"
+,"GRM31A5C2J151JW01"
+,"GRM31A5C3A151JW01"
+,"GRM31A7U2J151JW31"
+,"GRM31A7U3A151JW31"
+,"GRM31A5C2J181JW01"
+,"GRM31A5C3A181JW01"
+,"GRM31A7U2J181JW31"
+,"GRM31A7U3A181JW31"
+,"GRM3195C2A201JZ01"
+,"GRM31A5C2J221JW01"
+,"GRM31A5C3A221JW01"
+,"GRM31A7U2J221JW31"
+,"GRM31A7U3A221JW31"
+,"GRM31A5C2J271JW01"
+,"GRM31A7U2J271JW31"
+,"GRM31A7U3A271JW31"
+,"GRM31A5C2J331JW01"
+,"GRM31A7U2J331JW31"
+,"GRM31A7U3A331JW31"
+,"GRM31A5C2J391JW01"
+,"GRM31A7U2J391JW31"
+,"GRM31B7U3A391JW31"
+,"GRM31A5C2J471JW01"
+,"GRM31A7U2J471JW31"
+,"GRM31B7U3A471JW31"
+,"GRM31BR73A471KW01"
+,"GRM31A5C2J561JW01"
+,"GRM31A7U2J561JW31"
+,"GRM31B7U3A561JW31"
+,"GRM31A7U2J681JW31"
+,"GRM31B5C2J681JW01"
+,"GRM31B7U3A681JW31"
+,"GRM31BR73A681KW01"
+,"GRM31A7U2J821JW31"
+,"GRM31B5C2J821JW01"
+,"GRM31C7U3A821JW32"
+,"GRM31A7U2J102JW31"
+,"GRM31B5C2J102JW01"
+,"GRM31BR72J102KW01"
+,"GRM31BR73A102KW01"
+,"GRM31C7U3A102JW32"
+,"GRM31A7U2J122JW31"
+,"GRM31A7U2J152JW31"
+,"GRM31BR72J152KW01"
+,"GRM31BR73A152KW01"
+,"GRM31A7U2J182JW31"
+,"GRM3195C2A222JA01"
+,"GRM319R72A222KA01"
+,"GRM31A7U2J222JW31"
+,"GRM31BR72J222KW01"
+,"GRM31BR73A222KW01"
+,"GRM31A7U2E272JW31"
+,"GRM31B7U2J272JW31"
+,"GRM3195C2A332JA01"
+,"GRM31A7U2E332JW31"
+,"GRM31B7U2J332JW31"
+,"GRM31BR72J332KW01"
+,"GRM31BR73A332KW01"
+,"GRM31A7U2E392JW31"
+,"GRM31C7U2J392JW32"
+,"GRM3195C1H472JA01"
+,"GRM3195C2A472JA01"
+,"GRM31A7U2E472JW31"
+,"GRM31BR72J472KW01"
+,"GRM31BR73A472KW01"
+,"GRM31C7U2J472JW32"
+,"GRM3195C2A562JA01"
+,"GRM31A7U2E562JW31"
+,"GRM3195C1H682JA01"
+,"GRM3195C2A682JA01"
+,"GRM31B7U2E682JW31"
+,"GRM31BR72J682KW01"
+,"GRM31B7U2E822JW31"
+,"GRM3195C1H103JA01"
+,"GRM3195C2A103JA01"
+,"GRM31B7U2E103JW31"
+,"GRM31BR72J103KW01"
+,"GRM3195C1H153JA01"
+,"GRM3195C2A153JA01"
+,"GRM31BR72E153KW01"
+,"GRM31CR72J153KW03"
+,"GRM3195C1H223JA01"
+,"GRM3195C2A223JA01"
+,"GRM31BR72E223KW01"
+,"GRM31MR72A223KA01"
+,"GRM31MR72A223MA01"
+,"GRM3195C1H333JA01"
+,"GRM31CR72E333KW03"
+,"GRM31M5C1H393JA01"
+,"GRM31CR72E473KW03"
+,"GRM31M5C1H473JA01"
+,"GRM31MR72A473KA01"
+,"GRM31MR72A473MA01"
+,"GRM3197U1H563JA01"
+,"GRM31BR72E683KW01"
+,"GRM31C5C1H683JA01"
+,"GRM31C7U2A683JA01"
+,"GRM31M7U1H683JA01"
+,"GRM31C5C1H823JA01"
+,"GRM319R72A104KA01"
+,"GRM31C5C1H104JA01"
+,"GRM31C7U2A104JA01"
+,"GRM31CR72E104KW03"
+,"GRM31M7U1H104JA01"
+,"GRM31MR71H224KA01"
+,"GRM31MR71H224MA01"
+,"GRM31MR72A224KA01"
+,"GRM319R71E474KA01"
+,"GRM31MR71E474KA01"
+,"GRM31MR71H474KA01"
+,"GRM31MR71H474MA01"
+,"GRM31MR72A474KA35"
+,"GRM31MR72A474MA35"
+,"GRM31MR72A684KA35"
+,"GRM319R61A105KA01"
+,"GRM319R61C105KAA3"
+,"GRM319R61E105KC36"
+,"GRM319R71A105KA01"
+,"GRM319R71C105KAA3"
+,"GRM31CR72A105KA01"
+,"GRM31MR61C105KA01"
+,"GRM31MR71C105KA01"
+,"GRM31MR71E105KA01"
+,"GRM31MR71H105KA88"
+,"GRM316C81C225KA12"
+,"GRM316D71C225KA12"
+,"GRM316D71C225MA12"
+,"GRM316R61C225KA88"
+,"GRM316R61E225KA12"
+,"GRM319C8YA225KA12"
+,"GRM319C8YA225MA12"
+,"GRM319R61A225KA01"
+,"GRM31CR61H225KA88"
+,"GRM31CR71H225KA88"
+,"GRM31CR72A225KA73"
+,"GRM31MR61A225KA01"
+,"GRM31MR61C225KA35"
+,"GRM31MR71A225KA01"
+,"GRM31MR71C225KA35"
+,"GRM31MR71E225KA93"
+,"GRM316R61A475KE19"
+,"GRM319C81C475KA12"
+,"GRM319D71C475KA12"
+,"GRM319D71C475MA12"
+,"GRM319R61A475KA01"
+,"GRM319R61C475KA88"
+,"GRM319R61E475KA12"
+,"GRM31CR60J475KA01"
+,"GRM31CR61A475KA01"
+,"GRM31CR61C475KA01"
+,"GRM31CR61E475KA88"
+,"GRM31CR71A475KA01"
+,"GRM31CR71C475KA01"
+,"GRM31CR71E475KA88"
+,"GRM31CR71H475KA12"
+,"GRM31CR71H475MA12"
+,"GRM31MC81C685KA12"
+,"GRM31MC81C685MA12"
+,"GRM319C80J106KE19"
+,"GRM319C81A106KA12"
+,"GRM319R60J106KE19"
+,"GRM319R61A106KE19"
+,"GRM319R61C106KE15"
+,"GRM31CC81E106KE15"
+,"GRM31CR60J106KA01"
+,"GRM31CR61A106KA01"
+,"GRM31CR61C106KA88"
+,"GRM31CR61E106KA12"
+,"GRM31CR70J106KA01"
+,"GRM31CR71A106KA01"
+,"GRM31CR71C106KA12"
+,"GRM31CR71C106KAC7"
+,"GRM31CR71C106MA12"
+,"GRM31CR71E106KA12"
+,"GRM31MC81C106KA12"
+,"GRM31MR61A106KE19"
+,"GRM31MR61C106KA12"
+,"GRM31MR61E106MA12"
+,"GRM31CC70G226ME01"
+,"GRM31CC70J226KE15"
+,"GRM31CC80G226ME19"
+,"GRM31CC80J226KE19"
+,"GRM31CC80J226ME19"
+,"GRM31CC81A226KE19"
+,"GRM31CC81A226ME19"
+,"GRM31CC81C226ME15"
+,"GRM31CD71A226KE15"
+,"GRM31CD71A226ME15"
+,"GRM31CR60J226ME19"
+,"GRM31CR61A226KE19"
+,"GRM31CR61A226ME19"
+,"GRM31CR61C226ME15"
+,"GRM31CR70J226KE19"
+,"GRM31CR70J226ME19"
+,"GRM31CR71A226KE15"
+,"GRM31CR71A226ME15"
+,"GRM31CC80G476ME19"
+,"GRM31CC80J476ME18"
+,"GRM31CE70G476ME15"
+,"GRM31CE70J476ME15"
+,"GRM31CR60J476ME19"
+,"GRM31CR61A476KE15"
+,"GRM31CR61A476ME15"
+,"GRM31CD80G107ME39"
+,"GRM31CD80J107ME39"
+,"GRM31CE70G107ME39"
+,"GRM31CR60G107ME39"
+,"GRM31CR60J107ME39"
+);
+
+create_compound_form("GRM31_compound","Discrete Optimize setting","DistLibForm",68,"%p opt{ discrete %1p to %2p by 1 }","%s, %1s to %2s",
+create_parm("NOM","Nominal",32,"GRM31_list",-1,prm("GRM31A5C2J100JW01")),
+create_parm("MIN","Minimum",32,"GRM31_list",-1,prm("GRM31A5C2J100JW01")),
+create_parm("MAX","Maximum",32,"GRM31_list",-1,prm("GRM31CR60J107ME39")));
+
+create_form_set("GRM31_list_opt","NULL" 
+,"GRM31A5C2J100JW01"
+,"GRM31A5C3A100JW01"
+,"GRM31A7U2J100JW31"
+,"GRM31A7U3A100JW31"
+,"GRM31A7U3D100JW31"
+,"GRM31A5C2J120JW01"
+,"GRM31A5C3A120JW01"
+,"GRM31A7U2J120JW31"
+,"GRM31A7U3A120JW31"
+,"GRM31A7U3D120JW31"
+,"GRM31A5C2J150JW01"
+,"GRM31A5C3A150JW01"
+,"GRM31A7U2J150JW31"
+,"GRM31A7U3A150JW31"
+,"GRM31A7U3D150JW31"
+,"GRM31A5C2J180JW01"
+,"GRM31A5C3A180JW01"
+,"GRM31A7U2J180JW31"
+,"GRM31A7U3A180JW31"
+,"GRM31A7U3D180JW31"
+,"GRM31A5C2J220JW01"
+,"GRM31A5C3A220JW01"
+,"GRM31A7U2J220JW31"
+,"GRM31A7U3A220JW31"
+,"GRM31A7U3D220JW31"
+,"GRM31A5C2J270JW01"
+,"GRM31A5C3A270JW01"
+,"GRM31A7U2J270JW31"
+,"GRM31A7U3A270JW31"
+,"GRM31A7U3D270JW31"
+,"GRM31A5C2J330JW01"
+,"GRM31A5C3A330JW01"
+,"GRM31A7U2J330JW31"
+,"GRM31A7U3A330JW31"
+,"GRM31A7U3D330JW31"
+,"GRM31A5C2J390JW01"
+,"GRM31A5C3A390JW01"
+,"GRM31A7U2J390JW31"
+,"GRM31A7U3A390JW31"
+,"GRM31A7U3D390JW31"
+,"GRM31A5C2J470JW01"
+,"GRM31A5C3A470JW01"
+,"GRM31A7U2J470JW31"
+,"GRM31A7U3A470JW31"
+,"GRM31A7U3D470JW31"
+,"GRM31A5C2J560JW01"
+,"GRM31A5C3A560JW01"
+,"GRM31A7U2J560JW31"
+,"GRM31A7U3A560JW31"
+,"GRM31A7U3D560JW31"
+,"GRM31A5C2J680JW01"
+,"GRM31A5C3A680JW01"
+,"GRM31A7U2J680JW31"
+,"GRM31A7U3A680JW31"
+,"GRM31A7U3D680JW31"
+,"GRM31A5C2J820JW01"
+,"GRM31A5C3A820JW01"
+,"GRM31A7U2J820JW31"
+,"GRM31A7U3A820JW31"
+,"GRM31A5C2J101JW01"
+,"GRM31A5C3A101JW01"
+,"GRM31A7U2J101JW31"
+,"GRM31A7U3A101JW31"
+,"GRM31A5C2J121JW01"
+,"GRM31A5C3A121JW01"
+,"GRM31A7U2J121JW31"
+,"GRM31A7U3A121JW31"
+,"GRM31A5C2J151JW01"
+,"GRM31A5C3A151JW01"
+,"GRM31A7U2J151JW31"
+,"GRM31A7U3A151JW31"
+,"GRM31A5C2J181JW01"
+,"GRM31A5C3A181JW01"
+,"GRM31A7U2J181JW31"
+,"GRM31A7U3A181JW31"
+,"GRM3195C2A201JZ01"
+,"GRM31A5C2J221JW01"
+,"GRM31A5C3A221JW01"
+,"GRM31A7U2J221JW31"
+,"GRM31A7U3A221JW31"
+,"GRM31A5C2J271JW01"
+,"GRM31A7U2J271JW31"
+,"GRM31A7U3A271JW31"
+,"GRM31A5C2J331JW01"
+,"GRM31A7U2J331JW31"
+,"GRM31A7U3A331JW31"
+,"GRM31A5C2J391JW01"
+,"GRM31A7U2J391JW31"
+,"GRM31B7U3A391JW31"
+,"GRM31A5C2J471JW01"
+,"GRM31A7U2J471JW31"
+,"GRM31B7U3A471JW31"
+,"GRM31BR73A471KW01"
+,"GRM31A5C2J561JW01"
+,"GRM31A7U2J561JW31"
+,"GRM31B7U3A561JW31"
+,"GRM31A7U2J681JW31"
+,"GRM31B5C2J681JW01"
+,"GRM31B7U3A681JW31"
+,"GRM31BR73A681KW01"
+,"GRM31A7U2J821JW31"
+,"GRM31B5C2J821JW01"
+,"GRM31C7U3A821JW32"
+,"GRM31A7U2J102JW31"
+,"GRM31B5C2J102JW01"
+,"GRM31BR72J102KW01"
+,"GRM31BR73A102KW01"
+,"GRM31C7U3A102JW32"
+,"GRM31A7U2J122JW31"
+,"GRM31A7U2J152JW31"
+,"GRM31BR72J152KW01"
+,"GRM31BR73A152KW01"
+,"GRM31A7U2J182JW31"
+,"GRM3195C2A222JA01"
+,"GRM319R72A222KA01"
+,"GRM31A7U2J222JW31"
+,"GRM31BR72J222KW01"
+,"GRM31BR73A222KW01"
+,"GRM31A7U2E272JW31"
+,"GRM31B7U2J272JW31"
+,"GRM3195C2A332JA01"
+,"GRM31A7U2E332JW31"
+,"GRM31B7U2J332JW31"
+,"GRM31BR72J332KW01"
+,"GRM31BR73A332KW01"
+,"GRM31A7U2E392JW31"
+,"GRM31C7U2J392JW32"
+,"GRM3195C1H472JA01"
+,"GRM3195C2A472JA01"
+,"GRM31A7U2E472JW31"
+,"GRM31BR72J472KW01"
+,"GRM31BR73A472KW01"
+,"GRM31C7U2J472JW32"
+,"GRM3195C2A562JA01"
+,"GRM31A7U2E562JW31"
+,"GRM3195C1H682JA01"
+,"GRM3195C2A682JA01"
+,"GRM31B7U2E682JW31"
+,"GRM31BR72J682KW01"
+,"GRM31B7U2E822JW31"
+,"GRM3195C1H103JA01"
+,"GRM3195C2A103JA01"
+,"GRM31B7U2E103JW31"
+,"GRM31BR72J103KW01"
+,"GRM3195C1H153JA01"
+,"GRM3195C2A153JA01"
+,"GRM31BR72E153KW01"
+,"GRM31CR72J153KW03"
+,"GRM3195C1H223JA01"
+,"GRM3195C2A223JA01"
+,"GRM31BR72E223KW01"
+,"GRM31MR72A223KA01"
+,"GRM31MR72A223MA01"
+,"GRM3195C1H333JA01"
+,"GRM31CR72E333KW03"
+,"GRM31M5C1H393JA01"
+,"GRM31CR72E473KW03"
+,"GRM31M5C1H473JA01"
+,"GRM31MR72A473KA01"
+,"GRM31MR72A473MA01"
+,"GRM3197U1H563JA01"
+,"GRM31BR72E683KW01"
+,"GRM31C5C1H683JA01"
+,"GRM31C7U2A683JA01"
+,"GRM31M7U1H683JA01"
+,"GRM31C5C1H823JA01"
+,"GRM319R72A104KA01"
+,"GRM31C5C1H104JA01"
+,"GRM31C7U2A104JA01"
+,"GRM31CR72E104KW03"
+,"GRM31M7U1H104JA01"
+,"GRM31MR71H224KA01"
+,"GRM31MR71H224MA01"
+,"GRM31MR72A224KA01"
+,"GRM319R71E474KA01"
+,"GRM31MR71E474KA01"
+,"GRM31MR71H474KA01"
+,"GRM31MR71H474MA01"
+,"GRM31MR72A474KA35"
+,"GRM31MR72A474MA35"
+,"GRM31MR72A684KA35"
+,"GRM319R61A105KA01"
+,"GRM319R61C105KAA3"
+,"GRM319R61E105KC36"
+,"GRM319R71A105KA01"
+,"GRM319R71C105KAA3"
+,"GRM31CR72A105KA01"
+,"GRM31MR61C105KA01"
+,"GRM31MR71C105KA01"
+,"GRM31MR71E105KA01"
+,"GRM31MR71H105KA88"
+,"GRM316C81C225KA12"
+,"GRM316D71C225KA12"
+,"GRM316D71C225MA12"
+,"GRM316R61C225KA88"
+,"GRM316R61E225KA12"
+,"GRM319C8YA225KA12"
+,"GRM319C8YA225MA12"
+,"GRM319R61A225KA01"
+,"GRM31CR61H225KA88"
+,"GRM31CR71H225KA88"
+,"GRM31CR72A225KA73"
+,"GRM31MR61A225KA01"
+,"GRM31MR61C225KA35"
+,"GRM31MR71A225KA01"
+,"GRM31MR71C225KA35"
+,"GRM31MR71E225KA93"
+,"GRM316R61A475KE19"
+,"GRM319C81C475KA12"
+,"GRM319D71C475KA12"
+,"GRM319D71C475MA12"
+,"GRM319R61A475KA01"
+,"GRM319R61C475KA88"
+,"GRM319R61E475KA12"
+,"GRM31CR60J475KA01"
+,"GRM31CR61A475KA01"
+,"GRM31CR61C475KA01"
+,"GRM31CR61E475KA88"
+,"GRM31CR71A475KA01"
+,"GRM31CR71C475KA01"
+,"GRM31CR71E475KA88"
+,"GRM31CR71H475KA12"
+,"GRM31CR71H475MA12"
+,"GRM31MC81C685KA12"
+,"GRM31MC81C685MA12"
+,"GRM319C80J106KE19"
+,"GRM319C81A106KA12"
+,"GRM319R60J106KE19"
+,"GRM319R61A106KE19"
+,"GRM319R61C106KE15"
+,"GRM31CC81E106KE15"
+,"GRM31CR60J106KA01"
+,"GRM31CR61A106KA01"
+,"GRM31CR61C106KA88"
+,"GRM31CR61E106KA12"
+,"GRM31CR70J106KA01"
+,"GRM31CR71A106KA01"
+,"GRM31CR71C106KA12"
+,"GRM31CR71C106KAC7"
+,"GRM31CR71C106MA12"
+,"GRM31CR71E106KA12"
+,"GRM31MC81C106KA12"
+,"GRM31MR61A106KE19"
+,"GRM31MR61C106KA12"
+,"GRM31MR61E106MA12"
+,"GRM31CC70G226ME01"
+,"GRM31CC70J226KE15"
+,"GRM31CC80G226ME19"
+,"GRM31CC80J226KE19"
+,"GRM31CC80J226ME19"
+,"GRM31CC81A226KE19"
+,"GRM31CC81A226ME19"
+,"GRM31CC81C226ME15"
+,"GRM31CD71A226KE15"
+,"GRM31CD71A226ME15"
+,"GRM31CR60J226ME19"
+,"GRM31CR61A226KE19"
+,"GRM31CR61A226ME19"
+,"GRM31CR61C226ME15"
+,"GRM31CR70J226KE19"
+,"GRM31CR70J226ME19"
+,"GRM31CR71A226KE15"
+,"GRM31CR71A226ME15"
+,"GRM31CC80G476ME19"
+,"GRM31CC80J476ME18"
+,"GRM31CE70G476ME15"
+,"GRM31CE70J476ME15"
+,"GRM31CR60J476ME19"
+,"GRM31CR61A476KE15"
+,"GRM31CR61A476ME15"
+,"GRM31CD80G107ME39"
+,"GRM31CD80J107ME39"
+,"GRM31CE70G107ME39"
+,"GRM31CR60G107ME39"
+,"GRM31CR60J107ME39"
+,"GRM31_compound"
+);
+
+
+

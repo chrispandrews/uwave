@@ -1,0 +1,66 @@
+; subckt model for jfet
+
+define GS5B_SAV541_Minicircuits_GS5B (D G S1 S2)
+TLIN:TL4  G _net77 Z=54.0 Ohm E=0.8 F=1 GHz
+C:C12  _net77 _net1000 C=0.1 pF
+L:L11  _net77 _net78 L=0.35 nH Noise=yes 
+C:C13  _net78 _net1000 C=0.04 pF 
+L:L9  _net78 _net79 L=0.4 nH Noise=yes  
+C:C18  _net79 _net71 C=0.001 pF 
+C:C17  _net84 _net79 C=0.001 pF 
+PD5001_MLIN_D:MLIND3  _net79 _net74 W=70.0 um L=50.0 um
+R:Rg2  _net74 _net113 R=1 Ohm Noise=yes 
+R:Rg1  _net74 _net122 R=1 Ohm Noise=yes 
+EEHEMTM1:FET1  _net121 _net122 _net119 Noise=yes 
+PD5001_MLIN_MET1:MLIN1_5  _net84 _net119 W=100.0 um L=10.0 um
+L:LS1  _net584 _net84 L=0.12 nH Noise=yes
+C:Cs1 _net1000 _net84 C=0.005 pF  
+R:Rs1  _net1000 _net584 R=0.01 Ohm Noise=yes 
+L:LS11 S1 _net1000 L=0.32 nH Noise=yes
+EEHEMTM1:FET2  _net121 _net113 _net112 Noise=yes
+PD5001_MLIN_MET1:MLIN1_4  _net71 _net112 W=100.0 um L=10.0 um 
+L:LS2  _net571 _net71 L=0.12 nH Noise=yes 
+C:Cs2 _net1001 _net71 C=0.005 pF  
+R:Rs2 _net1001 _net571 R=0.01 Ohm Noise=yes 
+L:LS12 S2 _net1001 L=0.28 nH Noise=yes
+R:Rss1 _net1000 _net1001 R=0.001 Ohm Noise=yes 
+PD5001_MLIN_D:MLIND4  _net121 _net80 W=70.0 um L=50.0 um
+R:RD1  _net73 _net80 R=0.04 Ohm Noise=yes 
+C:CDS19  _net84 _net73 C=0.001 pF 
+C:CDS16  _net73 _net71 C=0.001 pF
+L:L8  _net73 _net81 L=0.4 nH Noise=yes  
+C:C11  _net81 _net1001 C=0.04 pF
+L:L10  _net81 _net82 L=0.35 nH Noise=yes  
+C:C14  _net82 _net1001 C=0.1 pF 
+C:CDS1 _net82 _net8002 C=0.15pF
+L:LDS1 _net8002 S2 L=0.2nH
+TLIN:TL3  _net82 D Z=90.0 Ohm E=2 F=1 GHz 
+model EEHEMTM1 EE_HEMT1 Vto=0.18 Gamma=0.00417 Vgo=0.7 Vdelt=0 Vch=3.93 Gmmax=Gmmax Vdso=2 \
+Vsat=0.6 Kapa=0.013 Peff=Peff Vtso=-10 Is=2.77*5e-9 N=2.7 Ris=0.9 Rid=0.00036 Tau=3.2e-12 Cdso=Cdso \
+Rdb=1e9 Cbs=2.77*1e-15 Vtoac=0.0256 Gammaac=30*0.004217/75 Vdeltac=0 Gmmaxac=Gmmaxac Kapaac=1200*0.012/75 Peffac=0.5*Peff \
+Vtsoac=-10.6 Gdbm=2.77*5e-6 Kdb=50/2.77 Vdsm=1 C11o=C11o C11th=C11th Vinfl=0.3295 Deltgs=0.5006 Deltds=0.52 \
+Lambda=0.01 C12sat=C12sat Cgdsat=3.7*19.69e-15 Kbk=2.77*5e-6 Vbr=15 Nbr=2 Idsoc=0.393*2.77 Rd=Rd/2.3 Rs=2.226/2.3 \
+Rg=3/5.77 Ugw=Ugw Ngf=Nof Vco=0.58 Vba=4.829 Vbc=0.95 Mu=7.861e-6 Deltgm=0.5824 Deltgmac=1.11 Alpha=1 Xti=3 \
+Tnom=25 
+Gmmax=2.77*(140*exp(3.4139/(Ugw*1e6))/1000)
+Ugw=52e-6
+Nof=8
+C11o=2.8*(320/Nof^0.0244-27.252*ln(Ugw*1e6)+226.6)*1e-15
+C11th=2.77*(241.79/(Ugw*1e6)^0.2241)*1e-15
+C12sat=2.5*(237.34/(Ugw*1e6)+26.728)*1e-15
+Cdso=2.77*(7.2135*ln(Nof)+10)*1e-15
+Peff=3.5*(21.4/(Ugw*1e6)+1.7319*Nof^-0.8813-0.1248)
+Rd=0.0049*(Nof*Ugw*1e6)+2.5398
+Gmmaxac=2.6*(126.75/(Ugw*1e6)^0.1894-4.5*ln(Nof)+46)/1000
+end GS5B_SAV541_Minicircuits_GS5B
+
+define PD5001_MLIN_D ( _net15  _net16 ) 
+parameters    W=72.0 um  L=100.0 um     
+model MSub1 MSUB H=100 um Er=12.9 Mur=1 Cond=4.1e7 Hu=3e34 mil T=3 um TanD=0.001 Rough=0 um 
+MLIN2:TL1  _net15 _net16 Subst="MSub1" W=W L=L Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+end PD5001_MLIN_D
+define PD5001_MLIN_MET1 ( _net13  _net14 ) 
+parameters    W=72.0 um  L=100.0 um 
+model MSub1 MSUB H=100 um Er=12.9 Mur=1 Cond=4.1e7 Hu=3.9e34 mil T=1 um TanD=0.001 Rough=0 um 
+MLIN2:TL1  _net13 _net14 Subst="MSub1" W=W L=L Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+end PD5001_MLIN_MET1 

@@ -1,0 +1,5 @@
+Name: Minicircuits_GS5B
+Version: 5
+Date: Friday Jul 10 22:00:11 2009
+Description: GS5B SAV541 packaged Amplifier
+Revision: Second revision

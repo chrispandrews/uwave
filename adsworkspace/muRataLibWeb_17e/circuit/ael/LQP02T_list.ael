@@ -1,0 +1,63 @@
+create_constant_form("LQP02TN0N4S02","0:LQP02TN0N4S02, High Frequency Film Type, 0.4[nH], +/-0.3[nH], 160[mA], 10[MHz]-6[GHz]:0",68,"0","LQP02TN0N4S02");
+create_constant_form("LQP02TN0N6S02","1:LQP02TN0N6S02, High Frequency Film Type, 0.6[nH], +/-0.3[nH], 160[mA], 10[MHz]-6[GHz]:1",68,"1","LQP02TN0N6S02");
+create_constant_form("LQP02TN0N8S02","2:LQP02TN0N8S02, High Frequency Film Type, 0.8[nH], +/-0.3[nH], 160[mA], 10[MHz]-6[GHz]:2",68,"2","LQP02TN0N8S02");
+create_constant_form("LQP02TN1N0S02","3:LQP02TN1N0S02, High Frequency Film Type, 1[nH], +/-0.3[nH], 110[mA], 10[MHz]-6[GHz]:3",68,"3","LQP02TN1N0S02");
+create_constant_form("LQP02TN1N2S02","4:LQP02TN1N2S02, High Frequency Film Type, 1.2[nH], +/-0.3[nH], 110[mA], 10[MHz]-6[GHz]:4",68,"4","LQP02TN1N2S02");
+create_constant_form("LQP02TN1N5S02","5:LQP02TN1N5S02, High Frequency Film Type, 1.5[nH], +/-0.3[nH], 110[mA], 10[MHz]-6[GHz]:5",68,"5","LQP02TN1N5S02");
+create_constant_form("LQP02TN1N8S02","6:LQP02TN1N8S02, High Frequency Film Type, 1.8[nH], +/-0.3[nH], 100[mA], 10[MHz]-6[GHz]:6",68,"6","LQP02TN1N8S02");
+create_constant_form("LQP02TN2N2S02","7:LQP02TN2N2S02, High Frequency Film Type, 2.2[nH], +/-0.3[nH], 100[mA], 10[MHz]-6[GHz]:7",68,"7","LQP02TN2N2S02");
+create_constant_form("LQP02TN2N7S02","8:LQP02TN2N7S02, High Frequency Film Type, 2.7[nH], +/-0.3[nH], 100[mA], 10[MHz]-6[GHz]:8",68,"8","LQP02TN2N7S02");
+create_constant_form("LQP02TN3N3S02","9:LQP02TN3N3S02, High Frequency Film Type, 3.3[nH], +/-0.3[nH], 90[mA], 10[MHz]-6[GHz]:9",68,"9","LQP02TN3N3S02");
+create_constant_form("LQP02TN3N9S02","10:LQP02TN3N9S02, High Frequency Film Type, 3.9[nH], +/-0.3[nH], 90[mA], 10[MHz]-6[GHz]:10",68,"10","LQP02TN3N9S02");
+create_constant_form("LQP02TN4N7S02","11:LQP02TN4N7S02, High Frequency Film Type, 4.7[nH], +/-0.3[nH], 80[mA], 10[MHz]-6[GHz]:11",68,"11","LQP02TN4N7S02");
+create_constant_form("LQP02TN5N6S02","12:LQP02TN5N6S02, High Frequency Film Type, 5.6[nH], +/-0.3[nH], 70[mA], 10[MHz]-6[GHz]:12",68,"12","LQP02TN5N6S02");
+create_constant_form("LQP02TN6N8J02","13:LQP02TN6N8J02, High Frequency Film Type, 6.8[nH], +/-5[%], 70[mA], 10[MHz]-6[GHz]:13",68,"13","LQP02TN6N8J02");
+create_constant_form("LQP02TN8N2J02","14:LQP02TN8N2J02, High Frequency Film Type, 8.2[nH], +/-5[%], 70[mA], 10[MHz]-6[GHz]:14",68,"14","LQP02TN8N2J02");
+create_constant_form("LQP02TN10NJ02","15:LQP02TN10NJ02, High Frequency Film Type, 10[nH], +/-5[%], 70[mA], 10[MHz]-6[GHz]:15",68,"15","LQP02TN10NJ02");
+
+create_form_set("LQP02T_list" 
+,"LQP02TN0N4S02"
+,"LQP02TN0N6S02"
+,"LQP02TN0N8S02"
+,"LQP02TN1N0S02"
+,"LQP02TN1N2S02"
+,"LQP02TN1N5S02"
+,"LQP02TN1N8S02"
+,"LQP02TN2N2S02"
+,"LQP02TN2N7S02"
+,"LQP02TN3N3S02"
+,"LQP02TN3N9S02"
+,"LQP02TN4N7S02"
+,"LQP02TN5N6S02"
+,"LQP02TN6N8J02"
+,"LQP02TN8N2J02"
+,"LQP02TN10NJ02"
+);
+
+create_compound_form("LQP02T_compound","Discrete Optimize setting","DistLibForm",68,"%p opt{ discrete %1p to %2p by 1 }","%s, %1s to %2s",
+create_parm("NOM","Nominal",32,"LQP02T_list",-1,prm("LQP02TN0N4S02")),
+create_parm("MIN","Minimum",32,"LQP02T_list",-1,prm("LQP02TN0N4S02")),
+create_parm("MAX","Maximum",32,"LQP02T_list",-1,prm("LQP02TN10NJ02")));
+
+create_form_set("LQP02T_list_opt","NULL" 
+,"LQP02TN0N4S02"
+,"LQP02TN0N6S02"
+,"LQP02TN0N8S02"
+,"LQP02TN1N0S02"
+,"LQP02TN1N2S02"
+,"LQP02TN1N5S02"
+,"LQP02TN1N8S02"
+,"LQP02TN2N2S02"
+,"LQP02TN2N7S02"
+,"LQP02TN3N3S02"
+,"LQP02TN3N9S02"
+,"LQP02TN4N7S02"
+,"LQP02TN5N6S02"
+,"LQP02TN6N8J02"
+,"LQP02TN8N2J02"
+,"LQP02TN10NJ02"
+,"LQP02T_compound"
+);
+
+
+

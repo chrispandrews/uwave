@@ -1,0 +1,5 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+INCLUDE $HOME/muRataLibWeb_17e/lib.defs
+DEFINE ece510wilkenson_lib ece510wilkenson_lib
+ASSIGN ece510wilkenson_lib libMode shared

@@ -1,0 +1,2440 @@
+defun  _DDSobjectSaveRestore_()
+{
+decl goId, goId2, goId3, goId4, ptId, plyPtId, ddsId, dssId, ddWinId, ddoId, goId1, pageId, markerID, plotId, axisID, traceID, legendID, goId0;
+
+ddsId = get_dds();
+
+set(ddsId, "ddsFileVersion", 1.0);
+
+ddoId = get_new(ddsId, "Object");
+// DataDisplay Object:
+	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
+	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
+	set(ddoId, "FileModifiedDateAndTime", "2011-10-26T21:27:35Z");
+	dssId = get(ddoId, "DatasetServer");
+// Default Dataset
+	set(ddoId, "DefaultDataset", "YAS_SParams");
+// Snap/Grid Defaults 
+	set(ddoId, "GridType", 0);
+	set(ddoId, "GridOn", 0);
+	set(ddoId, "DotGridColor", 102);
+	set(ddoId, "LineGridColor", 42);
+	set(ddoId, "SnapDistanceX", 0.125000);
+	set(ddoId, "SnapDistanceY", 0.125000);
+	set(ddoId, "SnapGridPerDisplayGridX", 2);
+	set(ddoId, "SnapGridPerDisplayGridY", 2);
+	set(ddoId, "SnapEnabled", 1);
+	set(ddoId, "SnapAutoSetXY", 1);
+	set(ddoId, "EnableExpressionUpdates", FALSE);
+pageId = get(ddoId, "CurrentPage");
+if (pageId == NULL) pageId = get_first(ddoId, "Page");
+if (pageId == NULL) pageId = get_new(ddoId, "Page");
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "DBS11 = dB(S(1,1))");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 130);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 903325295);
+// Graphical Object:
+	set(goId0, "Right", 7976);
+	set(goId0, "Bottom", 5208);
+	set(goId0, "Left", 6591);
+	set(goId0, "Top", 4958);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "Meas_freq_high_limit= 0.9 GHz");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 130);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 1469296639);
+// Graphical Object:
+	set(goId0, "Right", 6100);
+	set(goId0, "Bottom", 5544);
+	set(goId0, "Left", 4008);
+	set(goId0, "Top", 5294);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "DBS11_spec_value= -4");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 130);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 1229860151);
+// Graphical Object:
+	set(goId0, "Right", 3578);
+	set(goId0, "Bottom", 5201);
+	set(goId0, "Left", 1970);
+	set(goId0, "Top", 4951);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "DBS21_spec_value=7");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 130);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 425767521);
+// Graphical Object:
+	set(goId0, "Right", 3497);
+	set(goId0, "Bottom", 5839);
+	set(goId0, "Left", 1967);
+	set(goId0, "Top", 5589);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "DBS22=dB(S(2,2))");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 130);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 1417427162);
+// Graphical Object:
+	set(goId0, "Right", 7899);
+	set(goId0, "Bottom", 5528);
+	set(goId0, "Left", 6598);
+	set(goId0, "Top", 5278);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "DBS21=dB(S(2,1))");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 130);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 1597567594);
+// Graphical Object:
+	set(goId0, "Right", 7904);
+	set(goId0, "Bottom", 5830);
+	set(goId0, "Left", 6592);
+	set(goId0, "Top", 5580);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Plot");
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 1329138890);
+// Graphical Object:
+	set(goId0, "Right", 8222);
+	set(goId0, "Bottom", 10642);
+	set(goId0, "Left", 1645);
+	set(goId0, "Top", 6275);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+// Box...
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+// Plot base...
+	set(goId0, "LegendOnOff", TRUE);
+	set(goId0, "LeftMargin", 882);
+	set(goId0, "RightMargin", 126);
+	set(goId0, "TopMargin", 125);
+	set(goId0, "BottomMargin", 812);
+// Plot Title...
+	set(goId0, "Title", "");
+	set(goId0, "TitleFont", "Arial For CAE");
+	set(goId0, "TitleFontSize", 140);
+	set(goId0, "TitleColor", 0);
+axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
+// Axis...
+	if (axisID != NULL) {
+		 set(axisID, "Uid", 1346648960);
+		 set(axisID, "Color", 104);
+		 set(axisID, "UserLabel", "");
+		 set(axisID, "LabelColor", 0);
+		 set(axisID, "TicksOnOff", TRUE);
+		 set(axisID, "GridOnOff", TRUE);
+		 set(axisID, "LabelsOnOff", TRUE);
+		 set(axisID, "FontSize", 140);
+		 set(axisID, "LineThick", 20);
+		 set(axisID, "LineType", 0);
+		 set(axisID, "TickFontSize", 140);
+		 set(axisID, "AutoscaleOnOff", TRUE);
+		 set(axisID, "MinValue", 35);
+		 set(axisID, "MaxValue", 43);
+		 set(axisID, "StepSize", 0.5);
+		 set(axisID, "Logarithmic", FALSE);
+		 set(axisID, "Font", "Arial For CAE");
+		 set(axisID, "Format", ddsFormatAutomatic);
+		 set(axisID, "NumDigits", 3);
+	}
+axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
+// Axis...
+	if (axisID != NULL) {
+		 set(axisID, "Uid", 851276340);
+		 set(axisID, "Color", 104);
+		 set(axisID, "UserLabel", "");
+		 set(axisID, "LabelColor", 0);
+		 set(axisID, "TicksOnOff", TRUE);
+		 set(axisID, "GridOnOff", TRUE);
+		 set(axisID, "LabelsOnOff", TRUE);
+		 set(axisID, "FontSize", 140);
+		 set(axisID, "LineThick", 20);
+		 set(axisID, "LineType", 0);
+		 set(axisID, "TickFontSize", 140);
+		 set(axisID, "AutoscaleOnOff", FALSE);
+		 set(axisID, "MinValue", 0);
+		 set(axisID, "MaxValue", 100);
+		 set(axisID, "StepSize", 10);
+		 set(axisID, "Logarithmic", FALSE);
+		 set(axisID, "Font", "Arial For CAE");
+		 set(axisID, "Format", ddsFormatAutomatic);
+		 set(axisID, "NumDigits", 3);
+	}
+axisID = get_new(goId0, "Axis", ddsRightYaxis, "Right Y Axis");
+// Axis...
+	if (axisID != NULL) {
+		 set(axisID, "Uid", 846829484);
+		 set(axisID, "Color", 104);
+		 set(axisID, "UserLabel", "");
+		 set(axisID, "LabelColor", 0);
+		 set(axisID, "TicksOnOff", TRUE);
+		 set(axisID, "GridOnOff", FALSE);
+		 set(axisID, "LabelsOnOff", TRUE);
+		 set(axisID, "FontSize", 140);
+		 set(axisID, "LineThick", 20);
+		 set(axisID, "LineType", 0);
+		 set(axisID, "TickFontSize", 140);
+		 set(axisID, "AutoscaleOnOff", TRUE);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.2);
+		 set(axisID, "Logarithmic", FALSE);
+		 set(axisID, "Font", "Arial For CAE");
+		 set(axisID, "Format", ddsFormatAutomatic);
+		 set(axisID, "NumDigits", 3);
+	}
+axisID = get_new(goId0, "Axis", ddsXaxis, "Bottom X Axis");
+// Axis...
+	if (axisID != NULL) {
+		 set(axisID, "Uid", 1436487076);
+		 set(axisID, "Color", 104);
+		 set(axisID, "UserLabel", "");
+		 set(axisID, "LabelColor", 0);
+		 set(axisID, "TicksOnOff", TRUE);
+		 set(axisID, "GridOnOff", FALSE);
+		 set(axisID, "LabelsOnOff", TRUE);
+		 set(axisID, "FontSize", 140);
+		 set(axisID, "LineThick", 20);
+		 set(axisID, "LineType", 0);
+		 set(axisID, "TickFontSize", 140);
+		 set(axisID, "AutoscaleOnOff", TRUE);
+		 set(axisID, "MinValue", -1);
+		 set(axisID, "MaxValue", 1);
+		 set(axisID, "StepSize", 0.2);
+		 set(axisID, "Logarithmic", FALSE);
+		 set(axisID, "Font", "Arial For CAE");
+		 set(axisID, "Format", ddsFormatAutomatic);
+		 set(axisID, "NumDigits", 3);
+	}
+traceID = get_new(goId0, "Trace", "yldsens1", "X Axis", "Y Axis");
+// Trace:
+	if (traceID != NULL) {
+		set(traceID, "TraceType", ddsHistogramTraceType);
+		set(traceID, "Color", 0);
+		set(traceID, "Uid", 1900695608);
+		set(traceID, "UIIndex", 0);
+		set(traceID, "Status", 43008);
+	}
+// Rect trace:
+	if (traceID != NULL) {
+		set(traceID, "LineThick", 19);
+		set(traceID, "LineType", ddsSolidLineType);
+		set(traceID, "FillPattern", 1);
+		set(traceID, "SymbolType", ddsCircleSymbol);
+		set(traceID, "SymbolsOnOff", FALSE);
+		set(traceID, "DisplaySinglePointSymbols", TRUE);
+		set(traceID, "SymbolsSpacing", 15);
+		set(traceID, "AlwaysDisplayTransitions", FALSE);
+		set(traceID, "SpectralArrowheadsOnOff", TRUE);
+		set(traceID, "LabelSubtracesOnOff", FALSE);
+		set(traceID, "FillHistogramsOnOff", TRUE);
+		set(traceID, "Format", ddsFormatAutomatic);
+		set(traceID, "NumDigits", 3);
+		set(traceID, "Font", "Arial For CAE");
+		set(traceID, "FontSize", 112);
+		set(traceID, "LineColorAutoSequence", FALSE);
+		set(traceID, "LineTypeAutoSequence", FALSE);
+		set(traceID, "SymbolTypeAutoSequence", FALSE);
+		set(traceID, "LineColorAutoSequenceOrder", 3);
+		set(traceID, "LineTypeAutoSequenceOrder", 1);
+		set(traceID, "SymbolTypeAutoSequenceOrder", 2);
+		if (DDSnumTraceTypes > 8) {
+			set(traceID, "NumberOfDensityColors", 16);
+			set(traceID, "DensityColorOffset", 0);
+			set(traceID, "DensityStartColor", 20);
+			set(traceID, "DensitySymbolType", ddsDotSymbol);
+		}
+	}
+traceID = get_new(goId0, "Trace", "pos_conf_int_vs_Var1", "X Axis", "Y Axis");
+// Trace:
+	if (traceID != NULL) {
+		set(traceID, "TraceType", ddsLinearTraceType);
+		set(traceID, "Color", 1);
+		set(traceID, "Uid", 1608433119);
+		set(traceID, "UIIndex", 0);
+		set(traceID, "Status", 43008);
+	}
+// Rect trace:
+	if (traceID != NULL) {
+		set(traceID, "LineThick", 7);
+		set(traceID, "LineType", ddsSolidLineType);
+		set(traceID, "FillPattern", -1);
+		set(traceID, "SymbolType", ddsCircleSymbol);
+		set(traceID, "SymbolsOnOff", FALSE);
+		set(traceID, "DisplaySinglePointSymbols", TRUE);
+		set(traceID, "SymbolsSpacing", 15);
+		set(traceID, "AlwaysDisplayTransitions", FALSE);
+		set(traceID, "SpectralArrowheadsOnOff", TRUE);
+		set(traceID, "LabelSubtracesOnOff", FALSE);
+		set(traceID, "FillHistogramsOnOff", FALSE);
+		set(traceID, "Format", ddsFormatAutomatic);
+		set(traceID, "NumDigits", 3);
+		set(traceID, "Font", "Arial For CAE");
+		set(traceID, "FontSize", 112);
+		set(traceID, "LineColorAutoSequence", FALSE);
+		set(traceID, "LineTypeAutoSequence", FALSE);
+		set(traceID, "SymbolTypeAutoSequence", FALSE);
+		set(traceID, "LineColorAutoSequenceOrder", 3);
+		set(traceID, "LineTypeAutoSequenceOrder", 1);
+		set(traceID, "SymbolTypeAutoSequenceOrder", 2);
+		if (DDSnumTraceTypes > 8) {
+			set(traceID, "NumberOfDensityColors", 16);
+			set(traceID, "DensityColorOffset", 0);
+			set(traceID, "DensityStartColor", 20);
+			set(traceID, "DensitySymbolType", ddsDotSymbol);
+		}
+	}
+traceID = get_new(goId0, "Trace", "neg_conf_int_vs_Var1", "X Axis", "Y Axis");
+// Trace:
+	if (traceID != NULL) {
+		set(traceID, "TraceType", ddsLinearTraceType);
+		set(traceID, "Color", 1);
+		set(traceID, "Uid", 741971022);
+		set(traceID, "UIIndex", 0);
+		set(traceID, "Status", 43008);
+	}
+// Rect trace:
+	if (traceID != NULL) {
+		set(traceID, "LineThick", 7);
+		set(traceID, "LineType", ddsSolidLineType);
+		set(traceID, "FillPattern", -1);
+		set(traceID, "SymbolType", ddsCircleSymbol);
+		set(traceID, "SymbolsOnOff", FALSE);
+		set(traceID, "DisplaySinglePointSymbols", TRUE);
+		set(traceID, "SymbolsSpacing", 15);
+		set(traceID, "AlwaysDisplayTransitions", FALSE);
+		set(traceID, "SpectralArrowheadsOnOff", TRUE);
+		set(traceID, "LabelSubtracesOnOff", FALSE);
+		set(traceID, "FillHistogramsOnOff", FALSE);
+		set(traceID, "Format", ddsFormatAutomatic);
+		set(traceID, "NumDigits", 3);
+		set(traceID, "Font", "Arial For CAE");
+		set(traceID, "FontSize", 112);
+		set(traceID, "LineColorAutoSequence", FALSE);
+		set(traceID, "LineTypeAutoSequence", FALSE);
+		set(traceID, "SymbolTypeAutoSequence", FALSE);
+		set(traceID, "LineColorAutoSequenceOrder", 3);
+		set(traceID, "LineTypeAutoSequenceOrder", 1);
+		set(traceID, "SymbolTypeAutoSequenceOrder", 2);
+		if (DDSnumTraceTypes > 8) {
+			set(traceID, "NumberOfDensityColors", 16);
+			set(traceID, "DensityColorOffset", 0);
+			set(traceID, "DensityStartColor", 20);
+			set(traceID, "DensitySymbolType", ddsDotSymbol);
+		}
+	}
+// Initialize plot
+	set(goId0, "InitPlot", 0);
+goId0 = get_new(pageId, "Listing");
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 747661340);
+// Graphical Object:
+	set(goId0, "Right", 10059);
+	set(goId0, "Bottom", 7883);
+	set(goId0, "Left", 8350);
+	set(goId0, "Top", 7216);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+// Box...
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+// Plot base...
+	set(goId0, "LegendOnOff", TRUE);
+	set(goId0, "LeftMargin", 13);
+	set(goId0, "RightMargin", 13);
+	set(goId0, "TopMargin", 0);
+	set(goId0, "BottomMargin", 13);
+// Listing column:
+	set(goId0, "ListingFont", "Arial For CAE");
+	set(goId0, "ListingFontSize", 179);
+	set(goId0, "Format", ddsFormatAutomatic);
+	set(goId0, "NumDigits", 1);
+	set(goId0, "OutlineOnOff", TRUE);
+	set(goId0, "OutlineColor", 0);
+	set(goId0, "LabelOnOff", TRUE);
+	set(goId0, "OutlineLineType", ddsSolidLineType);
+	set(goId0, "OutlineThickness", 14);
+	set(goId0, "VerticalScroll", 0);
+	set(goId0, "ShowIndependentData", TRUE);
+	set(goId0, "SuppressTable", FALSE);
+	set(goId0, "TransposeData", FALSE);
+// Plot Title...
+	set(goId0, "Title", "");
+	set(goId0, "TitleFont", "Arial For CAE");
+	set(goId0, "TitleFontSize", 140);
+	set(goId0, "TitleColor", 0);
+traceID = get_new(goId0, "Trace", "YieldToS11Spec", "", "");
+// Text trace:
+	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatMagPhase);
+// Trace:
+	if (traceID != NULL) {
+		set(traceID, "TraceType", ddsAutomaticTraceType);
+		set(traceID, "Color", 1);
+		set(traceID, "Uid", 660260205);
+		set(traceID, "UIIndex", 0);
+		set(traceID, "Status", 43008);
+	}
+// Initialize plot
+	set(goId0, "InitPlot", 0);
+goId0 = get_new(pageId, "Listing");
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 992739262);
+// Graphical Object:
+	set(goId0, "Right", 12048);
+	set(goId0, "Bottom", 7876);
+	set(goId0, "Left", 10268);
+	set(goId0, "Top", 7228);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+// Box...
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+// Plot base...
+	set(goId0, "LegendOnOff", TRUE);
+	set(goId0, "LeftMargin", 13);
+	set(goId0, "RightMargin", 13);
+	set(goId0, "TopMargin", 0);
+	set(goId0, "BottomMargin", 13);
+// Listing column:
+	set(goId0, "ListingFont", "Arial For CAE");
+	set(goId0, "ListingFontSize", 179);
+	set(goId0, "Format", ddsFormatAutomatic);
+	set(goId0, "NumDigits", 1);
+	set(goId0, "OutlineOnOff", TRUE);
+	set(goId0, "OutlineColor", 0);
+	set(goId0, "LabelOnOff", TRUE);
+	set(goId0, "OutlineLineType", ddsSolidLineType);
+	set(goId0, "OutlineThickness", 14);
+	set(goId0, "VerticalScroll", 0);
+	set(goId0, "ShowIndependentData", TRUE);
+	set(goId0, "SuppressTable", FALSE);
+	set(goId0, "TransposeData", FALSE);
+// Plot Title...
+	set(goId0, "Title", "");
+	set(goId0, "TitleFont", "Arial For CAE");
+	set(goId0, "TitleFontSize", 140);
+	set(goId0, "TitleColor", 0);
+traceID = get_new(goId0, "Trace", "YieldToS22Spec", "", "");
+// Text trace:
+	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatMagPhase);
+// Trace:
+	if (traceID != NULL) {
+		set(traceID, "TraceType", ddsAutomaticTraceType);
+		set(traceID, "Color", 1);
+		set(traceID, "Uid", 1989322481);
+		set(traceID, "UIIndex", 0);
+		set(traceID, "Status", 43008);
+	}
+// Initialize plot
+	set(goId0, "InitPlot", 0);
+goId0 = get_new(pageId, "Listing");
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 285645781);
+// Graphical Object:
+	set(goId0, "Right", 12056);
+	set(goId0, "Bottom", 7060);
+	set(goId0, "Left", 10230);
+	set(goId0, "Top", 6374);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+// Box...
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+// Plot base...
+	set(goId0, "LegendOnOff", TRUE);
+	set(goId0, "LeftMargin", 13);
+	set(goId0, "RightMargin", 13);
+	set(goId0, "TopMargin", 0);
+	set(goId0, "BottomMargin", 13);
+// Listing column:
+	set(goId0, "ListingFont", "Arial For CAE");
+	set(goId0, "ListingFontSize", 179);
+	set(goId0, "Format", ddsFormatAutomatic);
+	set(goId0, "NumDigits", 1);
+	set(goId0, "OutlineOnOff", TRUE);
+	set(goId0, "OutlineColor", 0);
+	set(goId0, "LabelOnOff", TRUE);
+	set(goId0, "OutlineLineType", ddsSolidLineType);
+	set(goId0, "OutlineThickness", 14);
+	set(goId0, "VerticalScroll", 0);
+	set(goId0, "ShowIndependentData", TRUE);
+	set(goId0, "SuppressTable", FALSE);
+	set(goId0, "TransposeData", FALSE);
+// Plot Title...
+	set(goId0, "Title", "");
+	set(goId0, "TitleFont", "Arial For CAE");
+	set(goId0, "TitleFontSize", 140);
+	set(goId0, "TitleColor", 0);
+traceID = get_new(goId0, "Trace", "YieldToS21Spec", "", "");
+// Text trace:
+	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatMagPhase);
+// Trace:
+	if (traceID != NULL) {
+		set(traceID, "TraceType", ddsAutomaticTraceType);
+		set(traceID, "Color", 1);
+		set(traceID, "Uid", 1469403497);
+		set(traceID, "UIIndex", 0);
+		set(traceID, "Status", 43008);
+	}
+// Initialize plot
+	set(goId0, "InitPlot", 0);
+goId0 = get_new(pageId, "Listing");
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 284416220);
+// Graphical Object:
+	set(goId0, "Right", 10058);
+	set(goId0, "Bottom", 7055);
+	set(goId0, "Left", 8342);
+	set(goId0, "Top", 6382);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+// Box...
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+// Plot base...
+	set(goId0, "LegendOnOff", TRUE);
+	set(goId0, "LeftMargin", 13);
+	set(goId0, "RightMargin", 13);
+	set(goId0, "TopMargin", 0);
+	set(goId0, "BottomMargin", 13);
+// Listing column:
+	set(goId0, "ListingFont", "Arial For CAE");
+	set(goId0, "ListingFontSize", 179);
+	set(goId0, "Format", ddsFormatAutomatic);
+	set(goId0, "NumDigits", 1);
+	set(goId0, "OutlineOnOff", TRUE);
+	set(goId0, "OutlineColor", 0);
+	set(goId0, "LabelOnOff", TRUE);
+	set(goId0, "OutlineLineType", ddsSolidLineType);
+	set(goId0, "OutlineThickness", 14);
+	set(goId0, "VerticalScroll", 0);
+	set(goId0, "ShowIndependentData", TRUE);
+	set(goId0, "SuppressTable", FALSE);
+	set(goId0, "TransposeData", FALSE);
+// Plot Title...
+	set(goId0, "Title", "");
+	set(goId0, "TitleFont", "Arial For CAE");
+	set(goId0, "TitleFontSize", 140);
+	set(goId0, "TitleColor", 0);
+traceID = get_new(goId0, "Trace", "OverallYield", "", "");
+// Text trace:
+	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatMagPhase);
+// Trace:
+	if (traceID != NULL) {
+		set(traceID, "TraceType", ddsAutomaticTraceType);
+		set(traceID, "Color", 1);
+		set(traceID, "Uid", 935421458);
+		set(traceID, "UIIndex", 0);
+		set(traceID, "Status", 43008);
+	}
+// Initialize plot
+	set(goId0, "InitPlot", 0);
+goId0 = get_new(pageId, "Text");
+// Text:
+	set(goId0, "String", "YIELD SENSITIVITY HISTOGRAM\nMeasurements are;\nS-Parameters");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 312);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 395574158);
+// Graphical Object:
+	set(goId0, "Right", 6717);
+	set(goId0, "Bottom", 4524);
+	set(goId0, "Left", 1975);
+	set(goId0, "Top", 3588);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 1);
+goId0 = get_new(pageId, "Listing");
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 352561102);
+// Graphical Object:
+	set(goId0, "Right", 11842);
+	set(goId0, "Bottom", 9854);
+	set(goId0, "Left", 8393);
+	set(goId0, "Top", 9079);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+// Box...
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+// Plot base...
+	set(goId0, "LegendOnOff", TRUE);
+	set(goId0, "LeftMargin", 13);
+	set(goId0, "RightMargin", 13);
+	set(goId0, "TopMargin", 0);
+	set(goId0, "BottomMargin", 13);
+// Listing column:
+	set(goId0, "ListingFont", "Arial For CAE");
+	set(goId0, "ListingFontSize", 140);
+	set(goId0, "Format", ddsFormatAutomatic);
+	set(goId0, "NumDigits", 3);
+	set(goId0, "OutlineOnOff", TRUE);
+	set(goId0, "OutlineColor", 0);
+	set(goId0, "LabelOnOff", TRUE);
+	set(goId0, "OutlineLineType", ddsSolidLineType);
+	set(goId0, "OutlineThickness", 14);
+	set(goId0, "VerticalScroll", 0);
+	set(goId0, "ShowIndependentData", TRUE);
+	set(goId0, "SuppressTable", FALSE);
+	set(goId0, "TransposeData", FALSE);
+// Plot Title...
+	set(goId0, "Title", "");
+	set(goId0, "TitleFont", "Arial For CAE");
+	set(goId0, "TitleFontSize", 140);
+	set(goId0, "TitleColor", 0);
+traceID = get_new(goId0, "Trace", "num_pass_stability", "", "");
+// Text trace:
+	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatMagPhase);
+// Trace:
+	if (traceID != NULL) {
+		set(traceID, "TraceType", ddsAutomaticTraceType);
+		set(traceID, "Color", 1);
+		set(traceID, "Uid", 335655974);
+		set(traceID, "UIIndex", 0);
+		set(traceID, "Status", 43008);
+	}
+traceID = get_new(goId0, "Trace", "num_fail_stability", "", "");
+// Text trace:
+	if (traceID != NULL) set(traceID, "ComplexNumberFormat", ddsComplexFormatMagPhase);
+// Trace:
+	if (traceID != NULL) {
+		set(traceID, "TraceType", ddsAutomaticTraceType);
+		set(traceID, "Color", 5);
+		set(traceID, "Uid", 1419346094);
+		set(traceID, "UIIndex", 0);
+		set(traceID, "Status", 43008);
+	}
+// Initialize plot
+	set(goId0, "InitPlot", 0);
+goId0 = get_new(pageId, "Text");
+// Text:
+	set(goId0, "String", "Unconditional Stability");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 166);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 749541547);
+// Graphical Object:
+	set(goId0, "Right", 10971);
+	set(goId0, "Bottom", 8997);
+	set(goId0, "Left", 9318);
+	set(goId0, "Top", 8831);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 0);
+goId0 = get_new(pageId, "Box");
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 2130289687);
+// Graphical Object:
+	set(goId0, "Right", 8120);
+	set(goId0, "Bottom", 5906);
+	set(goId0, "Left", 6512);
+	set(goId0, "Top", 4878);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+// Box...
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+goId0 = get_new(pageId, "Line");
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1240298449);
+// Graphical Object:
+	set(goId0, "Right", 12090);
+	set(goId0, "Bottom", 4600);
+	set(goId0, "Left", 1913);
+	set(goId0, "Top", 4488);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 56);
+// Line...
+	set(goId0, "StartX", 1969);
+	set(goId0, "StartY", 4544);
+	set(goId0, "EndX", 12034);
+	set(goId0, "EndY", 4544);
+goId0 = get_new(pageId, "Line");
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 2088068360);
+// Graphical Object:
+	set(goId0, "Right", 12075);
+	set(goId0, "Bottom", 6260);
+	set(goId0, "Left", 1954);
+	set(goId0, "Top", 6204);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 28);
+// Line...
+	set(goId0, "StartX", 1982);
+	set(goId0, "StartY", 6232);
+	set(goId0, "EndX", 12047);
+	set(goId0, "EndY", 6232);
+goId0 = get_new(pageId, "Line");
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 810659602);
+// Graphical Object:
+	set(goId0, "Right", 11950);
+	set(goId0, "Bottom", 11119);
+	set(goId0, "Left", 1773);
+	set(goId0, "Top", 11007);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 56);
+// Line...
+	set(goId0, "StartX", 1829);
+	set(goId0, "StartY", 11063);
+	set(goId0, "EndX", 11894);
+	set(goId0, "EndY", 11063);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "DBS22_spec_value=-4");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 130);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 395004962);
+// Graphical Object:
+	set(goId0, "Right", 3541);
+	set(goId0, "Bottom", 5509);
+	set(goId0, "Left", 1969);
+	set(goId0, "Top", 5259);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Group");
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 8318038);
+// Graphical Object:
+	set(goId0, "Right", 3992);
+	set(goId0, "Bottom", 5850);
+	set(goId0, "Left", 3736);
+	set(goId0, "Top", 5594);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId1 = get_new(goId0, "Circle");
+// Base Class Object:
+	set(goId1, "Name", "");
+	set(goId1, "Uid", 471026554);
+// Graphical Object:
+	set(goId1, "Right", 3992);
+	set(goId1, "Bottom", 5850);
+	set(goId1, "Left", 3736);
+	set(goId1, "Top", 5594);
+	set(goId1, "Zrot", 0.000000);
+	set(goId1, "Yrot", 0.000000);
+	set(goId1, "Xrot", 0.000000);
+	set(goId1, "Status", 0);
+	set(goId1, "LineColor", 0);
+	set(goId1, "LineType", 0);
+	set(goId1, "LineWidth", 21);
+// Box...
+	set(goId1, "FillPattern", -1);
+	set(goId1, "FillColor", 0);
+// Arc...
+	set(goId1, "StartX", 3992);
+	set(goId1, "StartY", 5722);
+	set(goId1, "CenterX", 3864);
+	set(goId1, "CenterY", 5722);
+	set(goId1, "Angle", 6.283185);
+	set(goId1, "Radius", 128);
+goId1 = get_new(goId0, "Text");
+// Text:
+	set(goId1, "String", "2");
+	set(goId1, "Font", "Arial For CAE");
+	set(goId1, "FontSize", 167);
+	set(goId1, "TextColor", 0);
+	set(goId1, "FillPattern", -1);
+	set(goId1, "FillColor", 0);
+	set(goId1, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId1, "Name", "");
+	set(goId1, "Uid", 912995075);
+// Graphical Object:
+	set(goId1, "Right", 3902);
+	set(goId1, "Bottom", 5829);
+	set(goId1, "Left", 3815);
+	set(goId1, "Top", 5662);
+	set(goId1, "Zrot", 0.000000);
+	set(goId1, "Yrot", 0.000000);
+	set(goId1, "Xrot", 0.000000);
+	set(goId1, "Status", 0);
+	set(goId1, "LineColor", 0);
+	set(goId1, "LineType", 0);
+	set(goId1, "LineWidth", 28);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "Meas_freq_low_limit=0.8 GHz");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 130);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 1517298210);
+// Graphical Object:
+	set(goId0, "Right", 6042);
+	set(goId0, "Bottom", 5191);
+	set(goId0, "Left", 4039);
+	set(goId0, "Top", 4941);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Text");
+// Text:
+	set(goId0, "String", "Equations are on the\n\"Equations\" page.");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 222);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", TRUE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 179580283);
+// Graphical Object:
+	set(goId0, "Right", 11917);
+	set(goId0, "Bottom", 10693);
+	set(goId0, "Left", 9875);
+	set(goId0, "Top", 10249);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 1);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "Var1=C11");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 166);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "default");
+	set(goId0, "Uid", 759309879);
+// Graphical Object:
+	set(goId0, "Right", 5817);
+	set(goId0, "Bottom", 10966);
+	set(goId0, "Left", 4760);
+	set(goId0, "Top", 10716);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Group");
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1862931567);
+// Graphical Object:
+	set(goId0, "Right", 6183);
+	set(goId0, "Bottom", 10963);
+	set(goId0, "Left", 5927);
+	set(goId0, "Top", 10707);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId1 = get_new(goId0, "Text");
+// Text:
+	set(goId1, "String", "1");
+	set(goId1, "Font", "Arial For CAE");
+	set(goId1, "FontSize", 167);
+	set(goId1, "TextColor", 0);
+	set(goId1, "FillPattern", -1);
+	set(goId1, "FillColor", 0);
+	set(goId1, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId1, "Name", "");
+	set(goId1, "Uid", 67939794);
+// Graphical Object:
+	set(goId1, "Right", 6102);
+	set(goId1, "Bottom", 10928);
+	set(goId1, "Left", 6008);
+	set(goId1, "Top", 10761);
+	set(goId1, "Zrot", 0.000000);
+	set(goId1, "Yrot", 0.000000);
+	set(goId1, "Xrot", 0.000000);
+	set(goId1, "Status", 0);
+	set(goId1, "LineColor", 0);
+	set(goId1, "LineType", 0);
+	set(goId1, "LineWidth", 28);
+goId1 = get_new(goId0, "Circle");
+// Base Class Object:
+	set(goId1, "Name", "");
+	set(goId1, "Uid", 931865672);
+// Graphical Object:
+	set(goId1, "Right", 6183);
+	set(goId1, "Bottom", 10963);
+	set(goId1, "Left", 5927);
+	set(goId1, "Top", 10707);
+	set(goId1, "Zrot", 0.000000);
+	set(goId1, "Yrot", 0.000000);
+	set(goId1, "Xrot", 0.000000);
+	set(goId1, "Status", 0);
+	set(goId1, "LineColor", 0);
+	set(goId1, "LineType", 0);
+	set(goId1, "LineWidth", 21);
+// Box...
+	set(goId1, "FillPattern", -1);
+	set(goId1, "FillColor", 0);
+// Arc...
+	set(goId1, "StartX", 6183);
+	set(goId1, "StartY", 10835);
+	set(goId1, "CenterX", 6055);
+	set(goId1, "CenterY", 10835);
+	set(goId1, "Angle", 6.283185);
+	set(goId1, "Radius", 128);
+goId0 = get_new(pageId, "Group");
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 131725379);
+// Graphical Object:
+	set(goId0, "Right", 9738);
+	set(goId0, "Bottom", 10831);
+	set(goId0, "Left", 7720);
+	set(goId0, "Top", 10190);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId1 = get_new(goId0, "Text");
+// Text:
+	set(goId1, "String", "Between the lines is \nthe 80% confidence\ninterval for the histogram");
+	set(goId1, "Font", "Arial For CAE");
+	set(goId1, "FontSize", 166);
+	set(goId1, "TextColor", 0);
+	set(goId1, "FillPattern", -1);
+	set(goId1, "FillColor", 0);
+	set(goId1, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId1, "Name", "");
+	set(goId1, "Uid", 1751478567);
+// Graphical Object:
+	set(goId1, "Right", 9660);
+	set(goId1, "Bottom", 10762);
+	set(goId1, "Left", 7814);
+	set(goId1, "Top", 10264);
+	set(goId1, "Zrot", 0.000000);
+	set(goId1, "Yrot", 0.000000);
+	set(goId1, "Xrot", 0.000000);
+	set(goId1, "Status", 0);
+	set(goId1, "LineColor", 0);
+	set(goId1, "LineType", 0);
+	set(goId1, "LineWidth", 7);
+goId1 = get_new(goId0, "Box");
+// Base Class Object:
+	set(goId1, "Name", "");
+	set(goId1, "Uid", 785695248);
+// Graphical Object:
+	set(goId1, "Right", 9738);
+	set(goId1, "Bottom", 10831);
+	set(goId1, "Left", 7720);
+	set(goId1, "Top", 10190);
+	set(goId1, "Zrot", 0.000000);
+	set(goId1, "Yrot", 0.000000);
+	set(goId1, "Xrot", 0.000000);
+	set(goId1, "Status", 0);
+	set(goId1, "LineColor", 0);
+	set(goId1, "LineType", 0);
+	set(goId1, "LineWidth", 7);
+// Box...
+	set(goId1, "FillPattern", -1);
+	set(goId1, "FillColor", 0);
+goId0 = get_new(pageId, "Group");
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1331835481);
+// Graphical Object:
+	set(goId0, "Right", 6514);
+	set(goId0, "Bottom", 5165);
+	set(goId0, "Left", 6258);
+	set(goId0, "Top", 4909);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId1 = get_new(goId0, "Text");
+// Text:
+	set(goId1, "String", "3");
+	set(goId1, "Font", "Arial For CAE");
+	set(goId1, "FontSize", 167);
+	set(goId1, "TextColor", 0);
+	set(goId1, "FillPattern", -1);
+	set(goId1, "FillColor", 0);
+	set(goId1, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId1, "Name", "");
+	set(goId1, "Uid", 2124538943);
+// Graphical Object:
+	set(goId1, "Right", 6426);
+	set(goId1, "Bottom", 5144);
+	set(goId1, "Left", 6339);
+	set(goId1, "Top", 4977);
+	set(goId1, "Zrot", 0.000000);
+	set(goId1, "Yrot", 0.000000);
+	set(goId1, "Xrot", 0.000000);
+	set(goId1, "Status", 0);
+	set(goId1, "LineColor", 0);
+	set(goId1, "LineType", 0);
+	set(goId1, "LineWidth", 28);
+goId1 = get_new(goId0, "Circle");
+// Base Class Object:
+	set(goId1, "Name", "");
+	set(goId1, "Uid", 1785210893);
+// Graphical Object:
+	set(goId1, "Right", 6514);
+	set(goId1, "Bottom", 5165);
+	set(goId1, "Left", 6258);
+	set(goId1, "Top", 4909);
+	set(goId1, "Zrot", 0.000000);
+	set(goId1, "Yrot", 0.000000);
+	set(goId1, "Xrot", 0.000000);
+	set(goId1, "Status", 0);
+	set(goId1, "LineColor", 0);
+	set(goId1, "LineType", 0);
+	set(goId1, "LineWidth", 21);
+// Box...
+	set(goId1, "FillPattern", -1);
+	set(goId1, "FillColor", 0);
+// Arc...
+	set(goId1, "StartX", 6514);
+	set(goId1, "StartY", 5037);
+	set(goId1, "CenterX", 6386);
+	set(goId1, "CenterY", 5037);
+	set(goId1, "Angle", 6.283185);
+	set(goId1, "Radius", 128);
+goId0 = get_new(pageId, "Group");
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 532806105);
+// Graphical Object:
+	set(goId0, "Right", 12052);
+	set(goId0, "Bottom", 6075);
+	set(goId0, "Left", 8268);
+	set(goId0, "Top", 4683);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId1 = get_new(goId0, "Group");
+// Base Class Object:
+	set(goId1, "Name", "");
+	set(goId1, "Uid", 1226604888);
+// Graphical Object:
+	set(goId1, "Right", 12027);
+	set(goId1, "Bottom", 5948);
+	set(goId1, "Left", 8383);
+	set(goId1, "Top", 4782);
+	set(goId1, "Zrot", 0.000000);
+	set(goId1, "Yrot", 0.000000);
+	set(goId1, "Xrot", 0.000000);
+	set(goId1, "Status", 0);
+	set(goId1, "LineColor", 0);
+	set(goId1, "LineType", 0);
+	set(goId1, "LineWidth", 7);
+goId2 = get_new(goId1, "Group");
+// Base Class Object:
+	set(goId2, "Name", "");
+	set(goId2, "Uid", 148065820);
+// Graphical Object:
+	set(goId2, "Right", 8656);
+	set(goId2, "Bottom", 5948);
+	set(goId2, "Left", 8383);
+	set(goId2, "Top", 4782);
+	set(goId2, "Zrot", 0.000000);
+	set(goId2, "Yrot", 0.000000);
+	set(goId2, "Xrot", 0.000000);
+	set(goId2, "Status", 0);
+	set(goId2, "LineColor", 0);
+	set(goId2, "LineType", 0);
+	set(goId2, "LineWidth", 7);
+goId3 = get_new(goId2, "Circle");
+// Base Class Object:
+	set(goId3, "Name", "");
+	set(goId3, "Uid", 607381805);
+// Graphical Object:
+	set(goId3, "Right", 8656);
+	set(goId3, "Bottom", 5038);
+	set(goId3, "Left", 8400);
+	set(goId3, "Top", 4782);
+	set(goId3, "Zrot", 0.000000);
+	set(goId3, "Yrot", 0.000000);
+	set(goId3, "Xrot", 0.000000);
+	set(goId3, "Status", 0);
+	set(goId3, "LineColor", 0);
+	set(goId3, "LineType", 0);
+	set(goId3, "LineWidth", 21);
+// Box...
+	set(goId3, "FillPattern", -1);
+	set(goId3, "FillColor", 0);
+// Arc...
+	set(goId3, "StartX", 8656);
+	set(goId3, "StartY", 4910);
+	set(goId3, "CenterX", 8528);
+	set(goId3, "CenterY", 4910);
+	set(goId3, "Angle", 6.283185);
+	set(goId3, "Radius", 128);
+goId3 = get_new(goId2, "Text");
+// Text:
+	set(goId3, "String", "1");
+	set(goId3, "Font", "Arial For CAE");
+	set(goId3, "FontSize", 167);
+	set(goId3, "TextColor", 0);
+	set(goId3, "FillPattern", -1);
+	set(goId3, "FillColor", 0);
+	set(goId3, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId3, "Name", "");
+	set(goId3, "Uid", 488531631);
+// Graphical Object:
+	set(goId3, "Right", 8578);
+	set(goId3, "Bottom", 5014);
+	set(goId3, "Left", 8484);
+	set(goId3, "Top", 4847);
+	set(goId3, "Zrot", 0.000000);
+	set(goId3, "Yrot", 0.000000);
+	set(goId3, "Xrot", 0.000000);
+	set(goId3, "Status", 0);
+	set(goId3, "LineColor", 0);
+	set(goId3, "LineType", 0);
+	set(goId3, "LineWidth", 28);
+goId3 = get_new(goId2, "Circle");
+// Base Class Object:
+	set(goId3, "Name", "");
+	set(goId3, "Uid", 1791097526);
+// Graphical Object:
+	set(goId3, "Right", 8647);
+	set(goId3, "Bottom", 5461);
+	set(goId3, "Left", 8391);
+	set(goId3, "Top", 5205);
+	set(goId3, "Zrot", 0.000000);
+	set(goId3, "Yrot", 0.000000);
+	set(goId3, "Xrot", 0.000000);
+	set(goId3, "Status", 0);
+	set(goId3, "LineColor", 0);
+	set(goId3, "LineType", 0);
+	set(goId3, "LineWidth", 21);
+// Box...
+	set(goId3, "FillPattern", -1);
+	set(goId3, "FillColor", 0);
+// Arc...
+	set(goId3, "StartX", 8647);
+	set(goId3, "StartY", 5333);
+	set(goId3, "CenterX", 8519);
+	set(goId3, "CenterY", 5333);
+	set(goId3, "Angle", 6.283185);
+	set(goId3, "Radius", 128);
+goId3 = get_new(goId2, "Text");
+// Text:
+	set(goId3, "String", "2");
+	set(goId3, "Font", "Arial For CAE");
+	set(goId3, "FontSize", 167);
+	set(goId3, "TextColor", 0);
+	set(goId3, "FillPattern", -1);
+	set(goId3, "FillColor", 0);
+	set(goId3, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId3, "Name", "");
+	set(goId3, "Uid", 801382770);
+// Graphical Object:
+	set(goId3, "Right", 8563);
+	set(goId3, "Bottom", 5426);
+	set(goId3, "Left", 8476);
+	set(goId3, "Top", 5259);
+	set(goId3, "Zrot", 0.000000);
+	set(goId3, "Yrot", 0.000000);
+	set(goId3, "Xrot", 0.000000);
+	set(goId3, "Status", 0);
+	set(goId3, "LineColor", 0);
+	set(goId3, "LineType", 0);
+	set(goId3, "LineWidth", 28);
+goId3 = get_new(goId2, "Text");
+// Text:
+	set(goId3, "String", "3");
+	set(goId3, "Font", "Arial For CAE");
+	set(goId3, "FontSize", 167);
+	set(goId3, "TextColor", 0);
+	set(goId3, "FillPattern", -1);
+	set(goId3, "FillColor", 0);
+	set(goId3, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId3, "Name", "");
+	set(goId3, "Uid", 1241861292);
+// Graphical Object:
+	set(goId3, "Right", 8555);
+	set(goId3, "Bottom", 5921);
+	set(goId3, "Left", 8468);
+	set(goId3, "Top", 5754);
+	set(goId3, "Zrot", 0.000000);
+	set(goId3, "Yrot", 0.000000);
+	set(goId3, "Xrot", 0.000000);
+	set(goId3, "Status", 0);
+	set(goId3, "LineColor", 0);
+	set(goId3, "LineType", 0);
+	set(goId3, "LineWidth", 28);
+goId3 = get_new(goId2, "Circle");
+// Base Class Object:
+	set(goId3, "Name", "");
+	set(goId3, "Uid", 55988760);
+// Graphical Object:
+	set(goId3, "Right", 8639);
+	set(goId3, "Bottom", 5948);
+	set(goId3, "Left", 8383);
+	set(goId3, "Top", 5692);
+	set(goId3, "Zrot", 0.000000);
+	set(goId3, "Yrot", 0.000000);
+	set(goId3, "Xrot", 0.000000);
+	set(goId3, "Status", 0);
+	set(goId3, "LineColor", 0);
+	set(goId3, "LineType", 0);
+	set(goId3, "LineWidth", 21);
+// Box...
+	set(goId3, "FillPattern", -1);
+	set(goId3, "FillColor", 0);
+// Arc...
+	set(goId3, "StartX", 8639);
+	set(goId3, "StartY", 5820);
+	set(goId3, "CenterX", 8511);
+	set(goId3, "CenterY", 5820);
+	set(goId3, "Angle", 6.283185);
+	set(goId3, "Radius", 128);
+goId2 = get_new(goId1, "Text");
+// Text:
+	set(goId2, "String", "Enter component to be graphed using the Eqn\nbelow the plot by defining Var1\n\nEnter the specifications for S11, S22 and S21 by\ndefining DBS11_Spec_value, DBS22_Spec_value,       \nand DBS21_Spec_value.\n\nEnter Frequency limits, lower and upper");
+	set(goId2, "Font", "Arial For CAE");
+	set(goId2, "FontSize", 139);
+	set(goId2, "TextColor", 0);
+	set(goId2, "FillPattern", -1);
+	set(goId2, "FillColor", 0);
+	set(goId2, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId2, "Name", "default");
+	set(goId2, "Uid", 1359019029);
+// Graphical Object:
+	set(goId2, "Right", 12027);
+	set(goId2, "Bottom", 5922);
+	set(goId2, "Left", 8708);
+	set(goId2, "Top", 4810);
+	set(goId2, "Zrot", 0.000000);
+	set(goId2, "Yrot", 0.000000);
+	set(goId2, "Xrot", 0.000000);
+	set(goId2, "Status", 0);
+	set(goId2, "LineColor", 0);
+	set(goId2, "LineType", 0);
+	set(goId2, "LineWidth", 42);
+goId1 = get_new(goId0, "Box");
+// Base Class Object:
+	set(goId1, "Name", "");
+	set(goId1, "Uid", 1985503736);
+// Graphical Object:
+	set(goId1, "Right", 12052);
+	set(goId1, "Bottom", 6075);
+	set(goId1, "Left", 8268);
+	set(goId1, "Top", 4683);
+	set(goId1, "Zrot", 0.000000);
+	set(goId1, "Yrot", 0.000000);
+	set(goId1, "Xrot", 0.000000);
+	set(goId1, "Status", 0);
+	set(goId1, "LineColor", 0);
+	set(goId1, "LineType", 0);
+	set(goId1, "LineWidth", 28);
+// Box...
+	set(goId1, "FillPattern", -1);
+	set(goId1, "FillColor", 0);
+// Base Class Object:
+	set(pageId, "Name", "page 1");
+	set(pageId, "Uid", 729349356);
+	set(pageId, "Invisible", FALSE);
+pageId = get_new(ddoId, "Page");
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "freq_low_index=find_index(freq[0,::],Meas_freq_low_limit)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 284914260);
+// Graphical Object:
+	set(goId0, "Right", 2182);
+	set(goId0, "Bottom", 0);
+	set(goId0, "Left", -2676);
+	set(goId0, "Top", -961);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "freq_high_index=find_index(freq[0,::],Meas_freq_high_limit)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 2079741989);
+// Graphical Object:
+	set(goId0, "Right", 2346);
+	set(goId0, "Bottom", 0);
+	set(goId0, "Left", -2676);
+	set(goId0, "Top", -691);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "DBS11_subrange=DBS11[::,freq_low_index::freq_high_index]");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 762458865);
+// Graphical Object:
+	set(goId0, "Right", 2460);
+	set(goId0, "Bottom", 246);
+	set(goId0, "Left", -2676);
+	set(goId0, "Top", -4);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "Max_DBS11=max(DBS11_subrange)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1554697378);
+// Graphical Object:
+	set(goId0, "Right", 530);
+	set(goId0, "Bottom", 1174);
+	set(goId0, "Left", -2676);
+	set(goId0, "Top", 924);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "fail =0");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1345478977);
+// Graphical Object:
+	set(goId0, "Right", 0);
+	set(goId0, "Bottom", 2378);
+	set(goId0, "Left", -2694);
+	set(goId0, "Top", 2128);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "pass = 1");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 547502527);
+// Graphical Object:
+	set(goId0, "Right", 0);
+	set(goId0, "Bottom", 2643);
+	set(goId0, "Left", -2685);
+	set(goId0, "Top", 2393);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "MaxDBS11_vs_Var1=vs(Max_DBS11, Var1)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1443794988);
+// Graphical Object:
+	set(goId0, "Right", 1008);
+	set(goId0, "Bottom", 2913);
+	set(goId0, "Left", -2705);
+	set(goId0, "Top", 2663);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "pf1_Max_DBS11=if(MaxDBS11_vs_Var1>DBS11_spec_value) then fail else pass");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1090196163);
+// Graphical Object:
+	set(goId0, "Right", 3874);
+	set(goId0, "Bottom", 3722);
+	set(goId0, "Left", -2702);
+	set(goId0, "Top", 3472);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "yldsens1=yield_sens (pf1_Max_DBS11*pf1_Max_DBS22*pf1_Min_DBS21,11)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1895160184);
+// Graphical Object:
+	set(goId0, "Right", 3626);
+	set(goId0, "Bottom", 4582);
+	set(goId0, "Left", -2721);
+	set(goId0, "Top", 4332);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "DBS22_subrange=DBS22[::,freq_low_index::freq_high_index]");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 171592911);
+// Graphical Object:
+	set(goId0, "Right", 2460);
+	set(goId0, "Bottom", 746);
+	set(goId0, "Left", -2676);
+	set(goId0, "Top", 496);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "DBS21_subrange=DBS21[::,freq_low_index::freq_high_index]");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1105174992);
+// Graphical Object:
+	set(goId0, "Right", 2460);
+	set(goId0, "Bottom", 477);
+	set(goId0, "Left", -2676);
+	set(goId0, "Top", 227);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "Max_DBS22=max(DBS22_subrange)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 504146628);
+// Graphical Object:
+	set(goId0, "Right", 530);
+	set(goId0, "Bottom", 1473);
+	set(goId0, "Left", -2676);
+	set(goId0, "Top", 1223);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "Min_DBS21=min(DBS21_subrange)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 432771972);
+// Graphical Object:
+	set(goId0, "Right", 464);
+	set(goId0, "Bottom", 1748);
+	set(goId0, "Left", -2676);
+	set(goId0, "Top", 1498);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "MaxDBS22_vs_Var1=vs(Max_DBS22, Var1)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 32814294);
+// Graphical Object:
+	set(goId0, "Right", 1009);
+	set(goId0, "Bottom", 3172);
+	set(goId0, "Left", -2704);
+	set(goId0, "Top", 2922);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "MinDBS21_vs_Var1=vs(Min_DBS21, Var1)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 933600285);
+// Graphical Object:
+	set(goId0, "Right", 950);
+	set(goId0, "Bottom", 3442);
+	set(goId0, "Left", -2697);
+	set(goId0, "Top", 3192);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "pf1_Max_DBS22=if(MaxDBS22_vs_Var1> DBS22_spec_value) then fail else pass");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 970862593);
+// Graphical Object:
+	set(goId0, "Right", 3909);
+	set(goId0, "Bottom", 3998);
+	set(goId0, "Left", -2716);
+	set(goId0, "Top", 3748);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "pf1_Min_DBS21=if(MinDBS21_vs_Var1 < DBS21_spec_value) then fail else pass");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 456974774);
+// Graphical Object:
+	set(goId0, "Right", 3895);
+	set(goId0, "Bottom", 4293);
+	set(goId0, "Left", -2714);
+	set(goId0, "Top", 4043);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Text");
+// Text:
+	set(goId0, "String", "");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 664096367);
+// Graphical Object:
+	set(goId0, "Right", -741);
+	set(goId0, "Bottom", -1215);
+	set(goId0, "Left", -741);
+	set(goId0, "Top", -1382);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 1);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "sf = if(stab_fact(S) > 1) then 1 else 0");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 424898336);
+// Graphical Object:
+	set(goId0, "Right", 6775);
+	set(goId0, "Bottom", 0);
+	set(goId0, "Left", 3651);
+	set(goId0, "Top", -879);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "sm = if (stab_meas(S) >0) then 1 else 0");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1173189741);
+// Graphical Object:
+	set(goId0, "Right", 7004);
+	set(goId0, "Bottom", 0);
+	set(goId0, "Left", 3651);
+	set(goId0, "Top", -590);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "stability = sf * sm");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1961358865);
+// Graphical Object:
+	set(goId0, "Right", 5302);
+	set(goId0, "Bottom", 0);
+	set(goId0, "Left", 3651);
+	set(goId0, "Top", -313);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "stability_min = min(stability)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1938379146);
+// Graphical Object:
+	set(goId0, "Right", 6186);
+	set(goId0, "Bottom", 210);
+	set(goId0, "Left", 3651);
+	set(goId0, "Top", -40);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "num_fail_stability= max(SP.mcTrial) +1 - sum(stability_min) ");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 786691496);
+// Graphical Object:
+	set(goId0, "Right", 8673);
+	set(goId0, "Bottom", 485);
+	set(goId0, "Left", 3651);
+	set(goId0, "Top", 235);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "num_pass_stability = sum(stability_min)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1066865016);
+// Graphical Object:
+	set(goId0, "Right", 7069);
+	set(goId0, "Bottom", 775);
+	set(goId0, "Left", 3651);
+	set(goId0, "Top", 525);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Box");
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1366600896);
+// Graphical Object:
+	set(goId0, "Right", 11681);
+	set(goId0, "Bottom", 8014);
+	set(goId0, "Left", -2898);
+	set(goId0, "Top", -1376);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+// Box...
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "NumPassedS22Spec=sum(pf1_Max_DBS22)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 418797868);
+// Graphical Object:
+	set(goId0, "Right", 6687);
+	set(goId0, "Bottom", 2099);
+	set(goId0, "Left", 2892);
+	set(goId0, "Top", 1849);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "YieldToS22Spec=100*NumPassedS22Spec/sweep_size(SP.mcTrial)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1499807931);
+// Graphical Object:
+	set(goId0, "Right", 8535);
+	set(goId0, "Bottom", 2351);
+	set(goId0, "Left", 2892);
+	set(goId0, "Top", 2101);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "NumPassedS21Spec=sum(pf1_Min_DBS21)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 355376783);
+// Graphical Object:
+	set(goId0, "Right", 6654);
+	set(goId0, "Bottom", 2550);
+	set(goId0, "Left", 2892);
+	set(goId0, "Top", 2300);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "YieldToS21Spec=100*NumPassedS21Spec/sweep_size(SP.mcTrial)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1317758757);
+// Graphical Object:
+	set(goId0, "Right", 8535);
+	set(goId0, "Bottom", 2771);
+	set(goId0, "Left", 2892);
+	set(goId0, "Top", 2521);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "NumPassedS11Spec=sum(pf1_Max_DBS11)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 90989739);
+// Graphical Object:
+	set(goId0, "Right", 6687);
+	set(goId0, "Bottom", 1568);
+	set(goId0, "Left", 2892);
+	set(goId0, "Top", 1318);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "YieldToS11Spec=100*NumPassedS11Spec/sweep_size(SP.mcTrial)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1874276641);
+// Graphical Object:
+	set(goId0, "Right", 8535);
+	set(goId0, "Bottom", 1832);
+	set(goId0, "Left", 2892);
+	set(goId0, "Top", 1582);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "OverallYield=100*sum(pf1_Max_DBS11*pf1_Max_DBS22*pf1_Min_DBS21)/sweep_size(SP.mcTrial)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 167);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 1076977725);
+// Graphical Object:
+	set(goId0, "Right", 11006);
+	set(goId0, "Bottom", 3007);
+	set(goId0, "Left", 2892);
+	set(goId0, "Top", 2757);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 14);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "num_bins1=round(log10(max(SP.mcTrial))/log10(2))");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 166);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 61409425);
+// Graphical Object:
+	set(goId0, "Right", 2120);
+	set(goId0, "Bottom", 5786);
+	set(goId0, "Left", -2264);
+	set(goId0, "Top", 5536);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "N1=round(pdf(Var1,num_bins-1)*max(SP.mcTrial))");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 166);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 680513245);
+// Graphical Object:
+	set(goId0, "Right", 1940);
+	set(goId0, "Bottom", 6280);
+	set(goId0, "Left", -2296);
+	set(goId0, "Top", 6030);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "Y1=yldsens1");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 166);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 803047582);
+// Graphical Object:
+	set(goId0, "Right", 0);
+	set(goId0, "Bottom", 6526);
+	set(goId0, "Left", -2296);
+	set(goId0, "Top", 6276);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "conf_int1=1.28*sqrt(Y1/100*(1-Y1/100))*100/sqrt(N1+.1)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 166);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 2049181133);
+// Graphical Object:
+	set(goId0, "Right", 2310);
+	set(goId0, "Bottom", 7021);
+	set(goId0, "Left", -2303);
+	set(goId0, "Top", 6771);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "pos_conf_int_vs_Var1=Y1 + vs(conf_int1,indep_Y1)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 166);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 552322796);
+// Graphical Object:
+	set(goId0, "Right", 2030);
+	set(goId0, "Bottom", 7292);
+	set(goId0, "Left", -2304);
+	set(goId0, "Top", 7042);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "indep_Y1=indep(Y1)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 166);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 14861597);
+// Graphical Object:
+	set(goId0, "Right", 0);
+	set(goId0, "Bottom", 6780);
+	set(goId0, "Left", -2296);
+	set(goId0, "Top", 6530);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId0 = get_new(pageId, "Text");
+// Text:
+	set(goId0, "String", "Confidence interval Equations\n");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 166);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 693479397);
+// Graphical Object:
+	set(goId0, "Right", 824);
+	set(goId0, "Bottom", 5485);
+	set(goId0, "Left", -1499);
+	set(goId0, "Top", 5153);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "neg_conf_int_vs_Var1=Y1 - vs(conf_int1,indep_Y1)");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 166);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 977325367);
+// Graphical Object:
+	set(goId0, "Right", 2021);
+	set(goId0, "Bottom", 7550);
+	set(goId0, "Left", -2297);
+	set(goId0, "Top", 7300);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+goId0 = get_new(pageId, "Equation");
+// Expression...
+	set(goId0, "Expression", "num_bins=11");
+	set(goId0, "Font", "Arial For CAE");
+	set(goId0, "FontSize", 166);
+	set(goId0, "TextColor", 0);
+	set(goId0, "FillPattern", -1);
+	set(goId0, "FillColor", 0);
+	set(goId0, "OutlineOnOff", FALSE);
+// Base Class Object:
+	set(goId0, "Name", "");
+	set(goId0, "Uid", 789865399);
+// Graphical Object:
+	set(goId0, "Right", 0);
+	set(goId0, "Bottom", 6007);
+	set(goId0, "Left", -2276);
+	set(goId0, "Top", 5757);
+	set(goId0, "Zrot", 0.000000);
+	set(goId0, "Yrot", 0.000000);
+	set(goId0, "Xrot", 0.000000);
+	set(goId0, "Status", 0);
+	set(goId0, "LineColor", 0);
+	set(goId0, "LineType", 0);
+	set(goId0, "LineWidth", 7);
+// Base Class Object:
+	set(pageId, "Name", "Equations");
+	set(pageId, "Uid", 1868608533);
+	set(pageId, "Invisible", FALSE);
+	set(ddoId, "UpdateAllExpressions", TRUE);
+	set(ddoId, "EnableExpressionUpdates", TRUE);
+
+ddWinId = get_new(ddsId, "Window");
+	set(ddWinId, "Object", ddoId);
+	set(ddWinId, "CurrentPage", 729349356);
+	set(ddWinId, "PageViewRect_1868608533", list(-3601, 7098, 11975, -2653));
+	set(ddWinId, "PageViewRect_729349356", list(1437, 11378, 12298, 3329));
+	set(ddWinId, "Frame", list(5, 2, 1031, 751));
+	set(ddWinId, "ForegroundColor", 0);
+	set(ddWinId, "BackgroundColor", 8);
+	set(ddWinId, "WindowPageOrder", list("page 1","Equations"));
+
+}
+
+_DDSobjectSaveRestore_() ;

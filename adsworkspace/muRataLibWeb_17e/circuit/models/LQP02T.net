@@ -1,0 +1,47 @@
+;;****************************************************************************
+;; File:        LQP02T.net
+;; Description: LQP02T model file
+;; Author:      Agilent Technologies Japan, Ltd. 
+;; Created:     2012.05.15 20:51:11
+;; Language:    ADSsim
+;; (C) Copyright 2005, Agilent Technologies Japan, all rights reserved.
+;;****************************************************************************
+
+
+define LQP02T ( _net1  _net2 ) 
+parameters PartNumber=0
+
+L = pwl(PartNumber,0,0.5104585,1,0.63,2,1.03,3,1.2,4,1.5,5,1.75,6,2.04,7,2.6,8,3.3,9,3.81,10,4.5,11,5.25,12,6.43,13,7.21,14,8.94,15,11.41)
+Kl = pwl(PartNumber,0,-0.0105,1,-0.048,2,-0.041,3,-0.045,4,-0.028,5,-0.034,6,-0.034,7,-0.0382,8,-0.032,9,-0.031,10,-0.031,11,-0.0317,12,-0.0397,13,-0.026,14,-0.026,15,-0.027)
+r1 = pwl(PartNumber,0,0.08,1,0.088,2,0.137,3,0.165,4,0.262,5,0.262,6,0.314,7,0.314,8,0.515,9,0.612,10,0.789,11,0.805,12,0.94,13,1.14,14,1.505,15,1.815)
+Kr = pwl(PartNumber,0,0.41,1,0.38,2,0.345,3,0.346,4,0.346,5,0.39,6,0.39,7,0.412,8,0.312,9,0.365,10,0.335,11,0.312,12,0.383,13,0.335,14,0.355,15,0.359)
+Cp = pwl(PartNumber,0,0.225,1,0.5,2,0.4,3,0.17,4,0.17,5,0.05,6,0.05,7,0.05,8,0.06,9,0.028,10,0.029,11,0.025,12,0.05,13,0.033,14,0.045,15,0.054)
+Lp = pwl(PartNumber,0,0)
+
+
+FREQ=if freq ==0 then tinyreal else freq endif
+Lvar = L*(FREQ/1e7)^Kl
+Rvar = r1*(FREQ/1e8)^Kr
+C:Cp  _net1 _net2 C=Cp pF
+Z_Port:Z1P1  _net1 _net2 Z[1,1]=complex(Rvar,(2*pi*FREQ*Lvar/1e9)) Ohm
+end LQP02T
+
+
+;;model information (PartNumber:partName)
+;0 : LQP02TN0N4S02
+;1 : LQP02TN0N6S02
+;2 : LQP02TN0N8S02
+;3 : LQP02TN1N0S02
+;4 : LQP02TN1N2S02
+;5 : LQP02TN1N5S02
+;6 : LQP02TN1N8S02
+;7 : LQP02TN2N2S02
+;8 : LQP02TN2N7S02
+;9 : LQP02TN3N3S02
+;10 : LQP02TN3N9S02
+;11 : LQP02TN4N7S02
+;12 : LQP02TN5N6S02
+;13 : LQP02TN6N8J02
+;14 : LQP02TN8N2J02
+;15 : LQP02TN10NJ02
+

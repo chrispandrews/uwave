@@ -1,0 +1,5 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+INCLUDE $HOME/muRataLibWeb_17e/lib.defs
+DEFINE LNA_lib LNA_lib
+ASSIGN LNA_lib libMode shared

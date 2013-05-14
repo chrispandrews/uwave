@@ -1,0 +1,7 @@
+gds C:/Users/candrews/Downloads/Connectors.gds
+lib atf54143_010407_lib
+layerMap C:/adsworkspace/LNA/SAV-541+_model_v3_wrk/mfg/LayerMap.map
+overwrite
+hierDepth 1000
+textHeight 1
+shared

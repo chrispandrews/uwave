@@ -1,0 +1,5 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+INCLUDE $HOME/muRataLibWeb_17e/lib.defs
+DEFINE ece432lab3_lib ece432lab3_lib
+ASSIGN ece432lab3_lib libMode shared

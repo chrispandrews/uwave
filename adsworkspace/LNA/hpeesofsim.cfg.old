@@ -1,0 +1,4 @@
+DESIGN_KIT_MODEL_PATH=C:\adsworkspace\muRataLibWeb_17e\bin\win32_64_VS2010
+EESOF_MODEL_PATH=.:../userCompiledModel/lib.$SIMARCH:..:../networks:$HOME/hpeesof/circuit/lib.$SIMARCH:$HPEESOF_DIR/custom/circuit/lib.$SIMARCH:$HPEESOF_DIR/circuit/lib.$SIMARCH:%DESIGN_KIT_MODEL_PATH;{%DESIGN_KIT_MODEL_PATH}
+DESIGN_KIT_VERILOGA_PATH=C:\adsworkspace\muRataLibWeb_17e\veriloga
+DESIGN_KIT_SIM_FILE_PATH=C:\adsworkspace\muRataLibWeb_17e\circuit\data;C:\adsworkspace\muRataLibWeb_17e\circuit\models
