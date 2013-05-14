@@ -10,7 +10,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2013-05-13T23:37:48Z");
+	set(ddoId, "FileModifiedDateAndTime", "2013-05-14T06:53:46Z");
 	set(ddoId, "FileCreatedDateAndTime", "2013-05-13T23:21:55Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
@@ -574,8 +574,8 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 112);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 0.8);
-		 set(axisID, "MaxValue", 2);
+		 set(axisID, "MinValue", 1);
+		 set(axisID, "MaxValue", 2.2);
 		 set(axisID, "StepSize", 0.2);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
@@ -782,7 +782,7 @@ goId0 = get_new(pageId, "Listing");
 axisID = get_new(goId0, "Axis", ddsXaxis, "");
 // Axis...
 	if (axisID != NULL) {
-		 set(axisID, "Uid", 190294247);
+		 set(axisID, "Uid", 1551445259);
 		 set(axisID, "Color", 104);
 		 set(axisID, "UserLabel", "");
 		 set(axisID, "LabelColor", 0);
@@ -1023,7 +1023,7 @@ markerID = get_new(traceID, "MarkerNew", "m5", "2500000000.000000000000000000000
 		set(markerID, "MkrReadoutFontSize", 167);
 		set(markerID, "MkrReadoutColor", 0);
 		set(markerID, "MkrReadoutLeft", 7375);
-		set(markerID, "MkrReadoutRight", 9988);
+		set(markerID, "MkrReadoutRight", 9941);
 		set(markerID, "MkrReadoutBottom", 10716);
 		set(markerID, "MkrReadoutTop", 10000);
 		set(markerID, "MkrIndicatorColor", 0);
@@ -1738,7 +1738,7 @@ traceID = get_new(goId0, "Trace", "Vg", "", "");
 ddWinId = get_new(ddsId, "Window");
 	set(ddWinId, "Object", ddoId);
 	set(ddWinId, "CurrentPage", 783196039);
-	set(ddWinId, "PageViewRect_783196039", list(3498, 13216, 20029, 4604));
+	set(ddWinId, "PageViewRect_783196039", list(915, 13216, 17446, 4604));
 	set(ddWinId, "Frame", list(-8, -8, 1440, 838));
 	set(ddWinId, "ForegroundColor", 0);
 	set(ddWinId, "BackgroundColor", 8);

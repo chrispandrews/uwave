@@ -1,0 +1,7 @@
+gds C:/Users/candrews/Downloads/Connectors.gds
+lib LNAproject_lib
+layerMap C:/uwave/adsworkspace/LNAproject/mfg/LayerMap.map
+overwrite
+hierDepth 1000
+textHeight 1
+shared
