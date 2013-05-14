@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      candrews
+HostName                       billg
+ProcessIdentifier              4944
+ProcessCreationTime_UTC        1368507468
+ProcessCreationTime_Readable   05/13/13 21:57:48 Pacific Daylight Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\uwave\adsworkspace\LNAproject\LNAproject_lib\%L%N%Arev%Flayout2\layout\layout.oa.cdslck
+TimeEditLocked                 05/14/13 09:50:17 Pacific Daylight Time
