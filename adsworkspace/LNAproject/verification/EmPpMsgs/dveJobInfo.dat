@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=LNAproject_lib:ring_24_tb:layout_hpeesofsim
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"
