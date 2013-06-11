@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   06/10/13 12:38:56 Pacific Daylight Time
 AppIdentifier                  OA File System Design Manager
 OSType                         win32
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         C:\uwave\adsworkspace\LNAproject\LNAproject_lib\ring_24_tb\schematic\sch.oa.cdslck
-TimeEditLocked                 06/10/13 17:25:41 Pacific Daylight Time
+FilePathUsedToEditLock         C:\uwave\adsworkspace\LNAproject\LNAproject_lib\ring24n1\schematic\sch.oa.cdslck
+TimeEditLocked                 06/10/13 22:14:40 Pacific Daylight Time

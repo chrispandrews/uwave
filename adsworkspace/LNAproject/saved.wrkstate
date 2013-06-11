@@ -1,8 +1,5 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows>
-        <DDS name="FSKrev1.dds"/>
-        <DDS name="ring24n1.dds"/>
-    </Windows>
+    <Windows/>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
