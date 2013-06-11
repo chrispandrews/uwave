@@ -10,8 +10,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2013-06-11T07:15:47Z");
-	set(ddoId, "FileCreatedDateAndTime", "2013-06-10T18:52:32Z");
+	set(ddoId, "FileModifiedDateAndTime", "2013-06-11T18:32:47Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
 	set(ddoId, "DefaultDataset", "ring24n1");
@@ -98,7 +97,7 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 112);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -14);
+		 set(axisID, "MinValue", -12);
 		 set(axisID, "MaxValue", 0);
 		 set(axisID, "StepSize", 2);
 		 set(axisID, "Logarithmic", FALSE);
@@ -339,7 +338,7 @@ traceID = get_new(goId0, "Trace", "S(1,1)", "X Axis", "Y Axis");
 			set(traceID, "DensitySymbolType", ddsDotSymbol);
 		}
 	}
-markerID = get_new(traceID, "MarkerNew", "m2", "2400000000.00000000000000000000000000000000", 0, "", "", 1, "");
+markerID = get_new(traceID, "MarkerNew", "m2", "2385000000.00000000000000000000000000000000", 0, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
 	set(markerID, "Uid", 108851082);
@@ -390,8 +389,8 @@ markerID = get_new(traceID, "MarkerNew", "m2", "2400000000.000000000000000000000
 		set(markerID, "MkrReadoutFontSize", 167);
 		set(markerID, "MkrReadoutColor", 0);
 		set(markerID, "MkrReadoutLeft", 6500);
-		set(markerID, "MkrReadoutRight", 9093);
-		set(markerID, "MkrReadoutBottom", 111);
+		set(markerID, "MkrReadoutRight", 9101);
+		set(markerID, "MkrReadoutBottom", 119);
 		set(markerID, "MkrReadoutTop", -585);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
@@ -417,7 +416,7 @@ markerID = get_new(traceID, "MarkerNew", "m2", "2400000000.000000000000000000000
 ddWinId = get_new(ddsId, "Window");
 	set(ddWinId, "Object", ddoId);
 	set(ddWinId, "CurrentPage", 462748355);
-	set(ddWinId, "PageViewRect_462748355", list(2513, 4300, 12412, -857));
+	set(ddWinId, "PageViewRect_462748355", list(1446, 4507, 13823, -1941));
 	set(ddWinId, "Frame", list(-8, -8, 1440, 838));
 	set(ddWinId, "ForegroundColor", 0);
 	set(ddWinId, "BackgroundColor", 8);

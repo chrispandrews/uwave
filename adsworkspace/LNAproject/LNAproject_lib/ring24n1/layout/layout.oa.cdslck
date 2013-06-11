@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      candrews
 HostName                       billg
-ProcessIdentifier              4500
-ProcessCreationTime_UTC        1370893136
-ProcessCreationTime_Readable   06/10/13 12:38:56 Pacific Daylight Time
+ProcessIdentifier              3756
+ProcessCreationTime_UTC        1370972074
+ProcessCreationTime_Readable   06/11/13 10:34:34 Pacific Daylight Time
 AppIdentifier                  OA File System Design Manager
 OSType                         win32
 ReasonForPlacingEditLock       OpenAccess edit lock
 FilePathUsedToEditLock         C:\uwave\adsworkspace\LNAproject\LNAproject_lib\ring24n1\layout\layout.oa.cdslck
-TimeEditLocked                 06/10/13 22:15:30 Pacific Daylight Time
+TimeEditLocked                 06/11/13 11:13:48 Pacific Daylight Time
